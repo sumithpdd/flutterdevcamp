@@ -33,7 +33,7 @@ const BecomeMentor = () => {
                         <div className="become-mentor__form">
                             <div className="become-mentor__form-top">
                                 <h2 className="become-mentor__form-title">
-                                    Apply for teaching
+                                    Apply for Mentoring
                                 </h2>
                             </div>
                             <form action="#"
