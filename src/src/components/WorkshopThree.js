@@ -4,12 +4,12 @@ import Swiper from "react-id-swiper";
 
 // Import Swiper styles
 import 'swiper/scss';
-import Workshop1 from "../assets/images/Workshop-1-1.jpg";
-import Workshop2 from "../assets/images/Workshop-1-2.jpg";
-import Workshop3 from "../assets/images/Workshop-1-3.jpg";
-import Workshop4 from "../assets/images/Workshop-1-4.jpg";
-import Workshop5 from "../assets/images/Workshop-1-5.jpg";
-import Workshop6 from "../assets/images/Workshop-1-6.jpg";
+import Workshop1 from "../assets/images/workshop-1-1.jpg";
+import Workshop2 from "../assets/images/workshop-1-2.jpg";
+import Workshop3 from "../assets/images/workshop-1-3.jpg";
+import Workshop4 from "../assets/images/workshop-1-4.jpg";
+import Workshop5 from "../assets/images/workshop-1-5.jpg";
+import Workshop6 from "../assets/images/workshop-1-6.jpg";
 import team1 from "../assets/images/team-1-1.jpg";
 import team2 from "../assets/images/team-1-2.jpg";
 import team3 from "../assets/images/team-1-3.jpg";

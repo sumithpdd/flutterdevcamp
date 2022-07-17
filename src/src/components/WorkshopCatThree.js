@@ -1,9 +1,9 @@
 import React from "react";
 import circleStripe from "../assets/images/circle-stripe.png";
-import category1 from "../assets/images/Workshop-category-1-1.png";
-import category2 from "../assets/images/Workshop-category-1-2.png";
-import category3 from "../assets/images/Workshop-category-1-3.png";
-import category4 from "../assets/images/Workshop-category-1-4.png";
+import category1 from "../assets/images/workshop-category-1-1.png";
+import category2 from "../assets/images/workshop-category-1-2.png";
+import category3 from "../assets/images/workshop-category-1-3.png";
+import category4 from "../assets/images/workshop-category-1-4.png";
 const WorkshopCatThree = () => {
   return (
     <section className="workshop-category-three">
