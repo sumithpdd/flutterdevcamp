@@ -1,11 +1,14 @@
-import React, { useState } from "react";
-import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
+import React from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide , useSwiper  } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css'; 
 import slidestrech from "../assets/images/slider-1-scratch.png";
 import person1 from "../assets/images/kari-shea-vGgaESc2M1Y-unsplash.jpg";
 import person2 from "../assets/images/slider-1-person-2.png";
 const SliderOne = () => {
-  const [swiper, setSwiper] = useState(null);
+  const swiper  = useSwiper();
 
   const goNext = () => {
     if (swiper !== null) {
@@ -22,7 +25,8 @@ const SliderOne = () => {
   return (
     <div className="banner-wrapper">
       <section className="banner-one banner-carousel__one no-dots">
-        <Swiper getSwiper={setSwiper}>
+        <Swiper >
+        <SwiperSlide>
           <div className="banner-one__slide banner-one__slide-one">
             <div className="container">
               <div className="banner-one__bubble-1"></div>
@@ -46,6 +50,8 @@ const SliderOne = () => {
               </div>
             </div>
           </div>
+          </SwiperSlide>
+          <SwiperSlide>
           <div className="banner-one__slide banner-one__slide-two">
             <div className="container">
               <div className="banner-one__bubble-1"></div>
@@ -69,6 +75,7 @@ const SliderOne = () => {
               </div>
             </div>
           </div>
+          </SwiperSlide>
         </Swiper>
       </section>
       <div className="banner-carousel-btn">

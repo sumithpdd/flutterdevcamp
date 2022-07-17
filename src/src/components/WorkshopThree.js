@@ -1,6 +1,9 @@
 import React from "react";
+// Import Swiper React components
 import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
+
+// Import Swiper styles
+import 'swiper/scss';
 import Workshop1 from "../assets/images/Workshop-1-1.jpg";
 import Workshop2 from "../assets/images/Workshop-1-2.jpg";
 import Workshop3 from "../assets/images/Workshop-1-3.jpg";
@@ -49,7 +52,7 @@ const WorkshopThree = () => {
   };
   return (
     <div>
-      <section className="Workshop-one__top-title home-three">
+      <section className="workshop-one__top-title home-three">
         <div className="container">
           <div className="block-title">
             <h2 className="block-title__title">
@@ -59,39 +62,39 @@ const WorkshopThree = () => {
           </div>
         </div>
       </section>
-      <section className="Workshop-one Workshop-one__mentor-details home-three">
+      <section className="workshop-one Workshop-one__mentor-details home-three">
         <div className="container">
-          <div className="Workshop-one__carousel">
+          <div className="workshop-one__carousel">
             <Swiper {...params}>
               <div className="item">
-                <div className="Workshop-one__single color-1">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-1">
+                  <div className="workshop-one__image">
                     <img src={Workshop1} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       development
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team1} alt="" />
                       by <Link to="/mentor-details">Renuka Kelkar</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">New react bootcamp</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -100,41 +103,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-2">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-2">
+                  <div className="workshop-one__image">
                     <img src={Workshop2} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       It & Software
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team2} alt="" />
                       by <Link to="/mentor-details">Cora Diaz</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Improve editing sk</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -143,41 +146,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-3">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-3">
+                  <div className="workshop-one__image">
                     <img src={Workshop3} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       marketing
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team3} alt="" />
                       by <Link to="/mentor-details">Sumith Damodaran</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Basics of photogra</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -186,41 +189,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-4">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-4">
+                  <div className="workshop-one__image">
                     <img src={Workshop4} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       Photography
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team4} alt="" />
                       by <Link to="/mentor-details">Sumith Damodaran</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Healthy workout ti</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -229,41 +232,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-5">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-5">
+                  <div className="workshop-one__image">
                     <img src={Workshop5} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       marketing
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team5} alt="" />
                       by <Link to="/mentor-details">Isabella Stanley</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Affiliate bootcamp</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -272,41 +275,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-6">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-6">
+                  <div className="workshop-one__image">
                     <img src={Workshop6} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       Health & Fitness
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team6} alt="" />
                       by <Link to="/mentor-details">Sumith Damodaran</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Healthy workout ti</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -315,41 +318,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-1">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-1">
+                  <div className="workshop-one__image">
                     <img src={Workshop1} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       development
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team1} alt="" />
                       by <Link to="/mentor-details">Renuka Kelkar</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">New react bootcamp</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -358,41 +361,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-2">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-2">
+                  <div className="workshop-one__image">
                     <img src={Workshop2} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       It & Software
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team2} alt="" />
                       by <Link to="/mentor-details">Cora Diaz</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Improve editing sk</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -401,41 +404,41 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-one__single color-3">
-                  <div className="Workshop-one__image">
+                <div className="workshop-one__single color-3">
+                  <div className="workshop-one__image">
                     <img src={Workshop3} alt="" />
                     <i className="far fa-heart"></i>
                   </div>
-                  <div className="Workshop-one__content">
-                    <a href="#none" className="Workshop-one__category">
+                  <div className="workshop-one__content">
+                    <a href="#none" className="workshop-one__category">
                       marketing
                     </a>
-                    <div className="Workshop-one__admin">
+                    <div className="workshop-one__admin">
                       <img src={team3} alt="" />
                       by <Link to="/mentor-details">Renuka Kelkar</Link>
                     </div>
-                    <h2 className="Workshop-one__title">
+                    <h2 className="workshop-one__title">
                       <Link to="/Workshop-details">Marketing strategi</Link>
                     </h2>
-                    <div className="Workshop-one__stars">
-                      <span className="Workshop-one__stars-wrap">
+                    <div className="workshop-one__stars">
+                      <span className="workshop-one__stars-wrap">
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </span>
-                      <span className="Workshop-one__count">4.8</span>
-                      <span className="Workshop-one__stars-count">250</span>
+                      <span className="workshop-one__count">4.8</span>
+                      <span className="workshop-one__stars-count">250</span>
                     </div>
-                    <div className="Workshop-one__meta">
+                    <div className="workshop-one__meta">
                       <a href="/Workshop-details">
                         <i className="far fa-clock"></i> 10 Hours
                       </a>
@@ -444,7 +447,7 @@ const WorkshopThree = () => {
                       </a>
                       <a href="/Workshop-details">Online only</a>
                     </div>
-                    <a href="#none" className="Workshop-one__link">
+                    <a href="#none" className="workshop-one__link">
                       See Details
                     </a>
                   </div>

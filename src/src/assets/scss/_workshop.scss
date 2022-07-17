@@ -1,4 +1,4 @@
-.Workshop-one {
+.workshop-one {
     padding-top: 120px;
     padding-bottom: 120px;
     .post-pagination {
@@ -6,64 +6,64 @@
     }
     &__carousel {
         .color-1 {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #7c4bc0;
             }
         }
         .color-2 {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #1888c9;
             }
         }
         .color-3 {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #d23f3f;
             }
         }
         .color-4 {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #2da397;
             }
         }
         .color-5 {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #d23f3f;
             }
         }
         .color-6 {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #33a9bb;
             }
         }
     }
     [class*=col-lg-] {
         &:nth-child(1) {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #7c4bc0;
             }
         }
         &:nth-child(2) {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #1888c9;
             }
         }
         &:nth-child(3) {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #d23f3f;
             }
         }
         &:nth-child(4) {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #2da397;
             }
         }
         &:nth-child(5) {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #d23f3f;
             }
         }
         &:nth-child(6) {
-            .Workshop-one__category {
+            .workshop-one__category {
                 background-color: #33a9bb;
             }
         }
@@ -239,11 +239,11 @@
     }
 }
 
-.Workshop-one__mentor-details {
+.workshop-one__mentor-details {
     padding-bottom: 90px;
 }
 
-.Workshop-one__top-title {
+.workshop-one__top-title {
     padding: 128px 0;
     position: relative;
     &::before {
@@ -259,12 +259,12 @@
     }
 }
 
-.Workshop-details {
+.workshop-details {
     padding: 120px 0;
     .list-unstyled {
         margin-bottom: 0;
     }
-    .Workshop-one__category {
+    .workshop-one__category {
         position: relative;
         top: auto;
         left: auto;
@@ -492,7 +492,7 @@
     }
 }
 
-.Workshop-details__tab-navs {
+.workshop-details__tab-navs {
     display: flex;
     background-color: $thm-gray;
     margin-top: 30px;
@@ -532,13 +532,13 @@
     }
 }
 
-.Workshop-details__tab {
+.workshop-details__tab {
     &-content {
         border-style: solid;
         border-width: 2px;
         border-color: rgb(241, 241, 241);
         padding: 50px;
-        .Workshop-details__meta-icon {
+        .workshop-details__meta-icon {
             width: 30px;
             height: 30px;
             i {
@@ -582,7 +582,7 @@
     }
 }
 
-.Workshop-details__overview-list {
+.workshop-details__overview-list {
     li {
         color: $thm-base-color;
         font-size: 16px;
@@ -590,7 +590,7 @@
     }
 }
 
-.Workshop-details__curriculum-list {
+.workshop-details__curriculum-list {
     li {
         display: flex;
         justify-content: space-between;
@@ -629,7 +629,7 @@
     }
 }
 
-.Workshop-details__price {
+.workshop-details__price {
     background-color: #f1f1f1;
     text-align: center;
     padding: 50px;
@@ -658,7 +658,7 @@
     }
 }
 
-.Workshop-details__meta {
+.workshop-details__meta {
     margin-top: 30px;
     margin-bottom: 30px;
     border-style: solid;
@@ -674,7 +674,7 @@
         transition: all .4s ease;
         &:hover {
             color: $thm-base-color;
-            .Workshop-details__meta-icon::before {
+            .workshop-details__meta-icon::before {
                 left: 0;
             }
         }
@@ -683,7 +683,7 @@
             margin-left: 15px;
         }
         &:nth-child(1) {
-            .Workshop-details__meta-icon {
+            .workshop-details__meta-icon {
                 background-color: #1888c9;
                 ;
                 &::before {
@@ -692,7 +692,7 @@
             }
         }
         &:nth-child(2) {
-            .Workshop-details__meta-icon {
+            .workshop-details__meta-icon {
                 background-color: #7c4bc0;
                 ;
                 &::before {
@@ -701,7 +701,7 @@
             }
         }
         &:nth-child(3) {
-            .Workshop-details__meta-icon {
+            .workshop-details__meta-icon {
                 background-color: #f16101;
                 ;
                 &::before {
@@ -710,7 +710,7 @@
             }
         }
         &:nth-child(4) {
-            .Workshop-details__meta-icon {
+            .workshop-details__meta-icon {
                 background-color: #2da397;
                 ;
                 &::before {
@@ -719,7 +719,7 @@
             }
         }
         &:nth-child(5) {
-            .Workshop-details__meta-icon {
+            .workshop-details__meta-icon {
                 background-color: #d23f3f;
                 ;
                 &::before {
@@ -728,7 +728,7 @@
             }
         }
         &:nth-child(6) {
-            .Workshop-details__meta-icon {
+            .workshop-details__meta-icon {
                 background-color: #33a9bb;
                 ;
                 &::before {
@@ -770,7 +770,7 @@
     }
 }
 
-.Workshop-details__list {
+.workshop-details__list {
     border-style: solid;
     border-width: 2px;
     border-color: rgb(241, 241, 241);
@@ -840,7 +840,7 @@
     }
 }
 
-.Workshop-one__carousel {
+.workshop-one__carousel {
     .owl-dots .owl-dot {
         outline: none;
     }
@@ -865,7 +865,7 @@
     }
 }
 
-.Workshop-one__top-title.home-one {
+.workshop-one__top-title.home-one {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -890,10 +890,10 @@
     }
 }
 
-.Workshop-one__top-title__curve {
+.workshop-one__top-title__curve {
     width: 100%;
     height: 60px;
-    background-image: url(../images/Workshop-title-curve.png);
+    background-image: url(../images/workshop-title-curve.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -903,7 +903,7 @@
     z-index: 10;
 }
 
-.Workshop-category-one {
+.workshop-category-one {
     padding: 120px 0;
     padding-top: 110px;
     .container-fluid {
@@ -921,7 +921,7 @@
             box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
         }
         &.color-1 {
-            .Workshop-category-one__icon {
+            .workshop-category-one__icon {
                 background-color: #1888c9;
                 &:before {
                     border-color: #1888c9;
@@ -929,7 +929,7 @@
             }
         }
         &.color-2 {
-            .Workshop-category-one__icon {
+            .workshop-category-one__icon {
                 background-color: #7c4bc0;
                 &:before {
                     border-color: #7c4bc0;
@@ -937,7 +937,7 @@
             }
         }
         &.color-3 {
-            .Workshop-category-one__icon {
+            .workshop-category-one__icon {
                 background-color: #f16101;
                 &:before {
                     border-color: #f16101;
@@ -945,7 +945,7 @@
             }
         }
         &.color-4 {
-            .Workshop-category-one__icon {
+            .workshop-category-one__icon {
                 background-color: #2da397;
                 &:before {
                     border-color: #2da397;
@@ -953,7 +953,7 @@
             }
         }
         &.color-5 {
-            .Workshop-category-one__icon {
+            .workshop-category-one__icon {
                 background-color: #d23f3f;
                 &:before {
                     border-color: #d23f3f;
@@ -961,7 +961,7 @@
             }
         }
         &.color-6 {
-            .Workshop-category-one__icon {
+            .workshop-category-one__icon {
                 background-color: #33a9bb;
                 &:before {
                     border-color: #33a9bb;
@@ -1025,7 +1025,7 @@
     }
 }
 
-.Workshop-category-two {
+.workshop-category-two {
     .inner-container {
         padding: 75px 40px;
         padding-bottom: 0;
@@ -1177,7 +1177,7 @@
     }
 }
 
-.Workshop-one__top-title.home-two {
+.workshop-one__top-title.home-two {
     padding-top: 120px;
     padding-bottom: 0;
     &:before {
@@ -1185,7 +1185,7 @@
     }
 }
 
-.Workshop-one.home-two {
+.workshop-one.home-two {
     padding-top: 0;
     position: relative;
     background-color: #022c46;
@@ -1200,26 +1200,26 @@
         background-image: url(../images/patter-1-1.jpg);
         opacity: 0.08;
     }
-    .Workshop-one__carousel {
+    .workshop-one__carousel {
         bottom: 243px;
         margin-bottom: -245px;
     }
-    .Workshop-one__carousel .owl-dots .owl-dot span {
+    .workshop-one__carousel .owl-dots .owl-dot span {
         background-color: #fff;
         opacity: 0.2;
     }
-    .Workshop-one__carousel .owl-dots .owl-dot.active span {
+    .workshop-one__carousel .owl-dots .owl-dot.active span {
         background-color: #fff;
         opacity: 1;
     }
-    .Workshop-one__line {
+    .workshop-one__line {
         position: absolute;
         bottom: 100%;
         left: 4%;
     }
 }
 
-.Workshop-one__top-title.home-three {
+.workshop-one__top-title.home-three {
     padding-top: 120px;
     padding-bottom: 0;
     &:before {
@@ -1227,15 +1227,15 @@
     }
 }
 
-.Workshop-one.home-three {
+.workshop-one.home-three {
     padding-top: 0;
     position: relative;
-    .Workshop-one__line {
+    .workshop-one__line {
         display: none;
     }
 }
 
-.Workshop-category-three {
+.workshop-category-three {
     position: relative;
     padding: 120px 0;
     &__circle {
@@ -1259,7 +1259,7 @@
         margin-bottom: 30px;
         &:hover {
             box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-            .Workshop-category-three__content {
+            .workshop-category-three__content {
                 opacity: 1;
             }
         }

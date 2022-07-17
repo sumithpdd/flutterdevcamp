@@ -1,6 +1,9 @@
 import React from "react";
+// Import Swiper React components
 import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
+
+// Import Swiper styles
+import 'swiper/scss';
 
 const WorkshopCatTwo = () => {
   const params = {
@@ -31,157 +34,157 @@ const WorkshopCatTwo = () => {
   };
 
   return (
-    <section className="Workshop-category-two">
+    <section className="workshop-category-two">
       <div className="container text-center">
         <div className="inner-container">
-          <div className="Workshop-category-two__carousel">
+          <div className="workshop-category-two__carousel">
             <Swiper {...params}>
               <div className="item">
-                <div className="Workshop-category-two__single color-1">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-1">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-desktop"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">IT & Software</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-2">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-2">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-web-programming"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Development</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-3">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-3">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-music-player"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Music</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-4">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-4">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-camera"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Photography</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-5">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-5">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-targeting"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Marketing</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-6">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-6">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-health"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Health & Fitness</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-1">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-1">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-desktop"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">IT & Software</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-2">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-2">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-web-programming"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Development</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-3">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-3">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-music-player"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Music</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-4">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-4">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-camera"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Photography</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-1">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-1">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-desktop"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">IT & Software</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-2">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-2">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-web-programming"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Development</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-3">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-3">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-music-player"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Music</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-4">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-4">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-camera"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Photography</a>
                   </h3>
                 </div>
               </div>
               <div className="item">
-                <div className="Workshop-category-two__single color-5">
-                  <div className="Workshop-category-two__icon">
+                <div className="workshop-category-two__single color-5">
+                  <div className="workshop-category-two__icon">
                     <i className="Flutter DevCamp |-icon-targeting"></i>
                   </div>
-                  <h3 className="Workshop-category-two__title">
+                  <h3 className="workshop-category-two__title">
                     <a href="#none">Marketing</a>
                   </h3>
                 </div>

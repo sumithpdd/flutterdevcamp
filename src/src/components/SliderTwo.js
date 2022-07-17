@@ -1,6 +1,9 @@
 import React, { useState } from "react";
+// Import Swiper React components
 import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
+
+// Import Swiper styles
+import 'swiper/scss';
 import bg1 from "../assets/images/slider-2-1.jpg";
 import bg2 from "../assets/images/slider-2-2.jpg";
 

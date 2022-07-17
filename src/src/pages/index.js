@@ -11,10 +11,8 @@ import WorkshopCountdown from "../components/WorkshopCountdown";
 import WorkshopCatOne from "../components/WorkshopCatOne";
 import CallToActionThree from "../components/CallToActionThree";
 import BrandsTwo from "../components/BrandsTwo";
-import BlogTwo from "../components/BlogTwo";
 import CallToActionFour from "../components/CallToActionFour";
-import SubscribeOne from "../components/SubscribeOne";
-
+ 
 const HomePage = () => (
   <Layout pageTitle="Flutter Devcamp - Flutter Learning">    
     <NavOne />
@@ -22,13 +20,10 @@ const HomePage = () => (
     <AboutTwo />
     <WorkshopOne />
     <VideoTwo />
-    <WorkshopCountdown />
-    <WorkshopCatOne />
+    <WorkshopCountdown /> 
     <CallToActionThree />
-    <BrandsTwo />
-    <BlogTwo />
-    <CallToActionFour />
-    <SubscribeOne />
+    <BrandsTwo /> 
+    <CallToActionFour />     
     <Footer />
   </Layout>
 );

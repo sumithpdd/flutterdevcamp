@@ -374,7 +374,7 @@
         font-size: 65px;
         line-height: 65px;
     }
-    .Workshop-category-three__single img {
+    .workshop-category-three__single img {
         max-width: 100%;
     }
     .cta-six__content,
@@ -395,7 +395,7 @@
     .cta-six__content {
         padding: 0;
     }
-    .Workshop-details__review-box {
+    .workshop-details__review-box {
         margin-top: 40px;
     }
     .about-two__image {
@@ -448,7 +448,7 @@
         padding-top: 40px;
     }
     .video-one__img img,
-    .Workshop-category-three__single img {
+    .workshop-category-three__single img {
         width: 100%;
     }
     .team-tab .tab-content {
@@ -475,7 +475,7 @@
     .inner-banner__title {
         font-size: 70px;
     }
-    .Workshop-details__price {
+    .workshop-details__price {
         margin-top: 40px;
     }
     .team-details .team-one__image img {
@@ -575,7 +575,7 @@
         transform: translateX(-50%);
         z-index: 91;
     }
-    .Workshop-category-two .inner-container {
+    .workshop-category-two .inner-container {
         margin-top: 0;
     }
     .about-one__about-page .about-one__img::before {
@@ -735,7 +735,7 @@
     .cta-five__title {
         font-size: 35px;
     }
-    .Workshop-details__top {
+    .workshop-details__top {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -747,16 +747,16 @@
         -ms-flex-align: start;
         align-items: flex-start;
     }
-    .Workshop-details__tab-navs li {
+    .workshop-details__tab-navs li {
         width: 100%;
         text-align: center;
     }
     .team-details__certificate-list,
-    .Workshop-details__list-item,
-    .Workshop-details__comment-top,
-    .Workshop-details__comment-meta,
-    .Workshop-details__meta-link,
-    .Workshop-details__progress-item {
+    .workshop-details__list-item,
+    .workshop-details__comment-top,
+    .workshop-details__comment-meta,
+    .workshop-details__meta-link,
+    .workshop-details__progress-item {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -769,34 +769,34 @@
         margin-left: 0;
         margin-top: 20px;
     }
-    .Workshop-details__comment-img {
+    .workshop-details__comment-img {
         margin-bottom: 20px;
     }
-    .Workshop-details__progress-bar {
+    .workshop-details__progress-bar {
         margin-left: 0;
         margin-right: 0;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .Workshop-details__tab-content {
+    .workshop-details__tab-content {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .Workshop-details__comment {
+    .workshop-details__comment {
         margin-left: -15px;
         margin-right: -15px;
         padding-left: 15px;
         padding-right: 15px;
     }
-    .Workshop-details__comment-form-btn {
+    .workshop-details__comment-form-btn {
         padding-left: 30px;
         padding-right: 30px;
         font-size: 16px;
     }
-    .Workshop-details__meta-link span {
+    .workshop-details__meta-link span {
         margin-left: 0;
     }
-    .Workshop-details__list-img {
+    .workshop-details__list-img {
         margin-bottom: 15px;
     }
     e,
