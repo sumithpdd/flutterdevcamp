@@ -49,7 +49,7 @@ class Navbar extends Component {
     })
   }
   render() {
-    const data = this.props.data.edges[0].node.frontmatter
+    const data = this.props.data.edges[0]?.node.frontmatter
     return (
       <header className="site-header site-header__header-one ">
         <nav
