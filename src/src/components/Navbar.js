@@ -86,7 +86,7 @@ class Navbar extends Component {
               </button>
             </div>
             <div className="main-navigation">
-              {data.menuItems.length > 0 && (
+              {data !== undefined && data !== null && data.menuItems.length > 0 && (
                 <ul className=" navigation-box">
                   {data.menuItems.map((menuItem) => (
                     // className="current"
