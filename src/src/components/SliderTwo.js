@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Swiper from "react-id-swiper";
 
 // Import Swiper styles
-import 'swiper/scss';
+import 'swiper/css';
 import bg1 from "../assets/images/slider-2-1.jpg";
 import bg2 from "../assets/images/slider-2-2.jpg";
 

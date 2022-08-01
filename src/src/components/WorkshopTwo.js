@@ -19,7 +19,7 @@ import line from "../assets/images/line-stripe.png";
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/scss';
+import 'swiper/css';
 
 const WorkshopTwo = () => {
   const params = {

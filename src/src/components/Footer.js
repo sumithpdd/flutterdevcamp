@@ -1,14 +1,15 @@
-import React from "react";
-import footer1 from "../assets/images/footer-1-1.png";
-import footer2 from "../assets/images/footer-1-2.png";
-import footer3 from "../assets/images/footer-1-3.png";
-import footer4 from "../assets/images/footer-1-4.png";
-import footer5 from "../assets/images/footer-1-5.png";
-import footer6 from "../assets/images/footer-1-6.png";
+import React from 'react'
+import footer1 from '../assets/images/footer-1-1.png'
+import footer2 from '../assets/images/footer-1-2.png'
+import footer3 from '../assets/images/footer-1-3.png'
+import footer4 from '../assets/images/footer-1-4.png'
+import footer5 from '../assets/images/footer-1-5.png'
+import footer6 from '../assets/images/footer-1-6.png'
 
-const Footer = () => {
+export const FooterTemplate = ({ data }) => {
+  const { copyrightInfo,  socialLinks } = data
   function scrollTop() {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0)
   }
   return (
     <div>
@@ -31,8 +32,8 @@ const Footer = () => {
                     <li>
                       <h2>
                         <a href="Workshop-details.html">
-                          {" "}
-                          Learning MBA Management{" "}
+                          {' '}
+                          Learning MBA Management{' '}
                         </a>
                       </h2>
                       <p>Jessica Brown</p>
@@ -134,33 +135,25 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container">
-            <p className="site-footer__copy">
-              &copy; Copyright 2020 by <a href="#none">Layerdrops.com</a>
-            </p>
-            <div className="site-footer__social">
-              <div
-                onClick={scrollTop}
-                onKeyDown={scrollTop}
-                role="button"
-                tabIndex={0}
-                className="scroll-to-target site-footer__scroll-top"
-              >
-                <i className="Flutter DevCamp |-icon-top-arrow"></i>
+            <p className="site-footer__copy">{copyrightInfo.tagline}</p>
+            {socialLinks.length > 0 && (
+              <div className="site-footer__social">
+                <div
+                  onClick={scrollTop}
+                  onKeyDown={scrollTop}
+                  role="button"
+                  tabIndex={0}
+                  className="scroll-to-target site-footer__scroll-top"
+                >
+                  <i className="kipso-icon-top-arrow"></i>
+                </div>
+                {socialLinks.map((socialLink) => (
+                  <a href={socialLink.linkURL}>
+                    <i className={"fab " + socialLink.icon}></i>
+                  </a>
+                ))}
               </div>
-
-              <a href="#none">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-facebook-square"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </div>
+            )}
           </div>
         </div>
       </footer>
@@ -182,6 +175,16 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
-export default Footer;
+  )
+}
+
+const Footer = (props) => {
+  console.log(props)
+  if (!props.data) {
+    return null
+  }
+  const data = props.data.edges[0].node.frontmatter
+  return <FooterTemplate data={data} />
+}
+
+export default Footer

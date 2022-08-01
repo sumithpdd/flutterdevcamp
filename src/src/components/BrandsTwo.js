@@ -3,7 +3,7 @@ import Swiper from "react-id-swiper";
 
 import brand1 from "../assets/images/brand-1-1.png"; 
 // Import Swiper styles
-import 'swiper/scss';
+import 'swiper/css';
 const BrandsTwo = () => {
   const params = {
     slidesPerView: 5,

@@ -3,7 +3,7 @@ import React from "react";
 import Swiper from "react-id-swiper";
 
 // Import Swiper styles
-import 'swiper/scss';
+import 'swiper/css';
 import Workshop1 from "../assets/images/workshop-1-1.jpg";
 import Workshop2 from "../assets/images/workshop-1-2.jpg";
 import Workshop3 from "../assets/images/workshop-1-3.jpg";

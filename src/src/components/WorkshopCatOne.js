@@ -3,7 +3,7 @@ import React from "react";
 import Swiper from "react-id-swiper";
 
 // Import Swiper styles
-import 'swiper/scss';
+import 'swiper/css';
 
 const WorkshopCatOne = () => {
   const params = {
