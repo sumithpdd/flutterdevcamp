@@ -7,7 +7,7 @@ const BecomeMentor = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="become-mentor__content">
-                            <h2 className="become-mentor__title">Teaching benefits</h2>
+                            <h2 className="become-mentor__title">Mentoring benefits</h2>
                             <p className="become-mentor__text">Lorem Ipsum is simply dummy text of the printing and
                                 type industry.
                                 Lorem Ipsum has been the standard dummy text ever since the when an unknown was
@@ -33,7 +33,7 @@ const BecomeMentor = () => {
                         <div className="become-mentor__form">
                             <div className="become-mentor__form-top">
                                 <h2 className="become-mentor__form-title">
-                                    Apply for teaching
+                                    Apply for Mentoring
                                 </h2>
                             </div>
                             <form action="#"
