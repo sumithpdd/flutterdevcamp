@@ -6,7 +6,7 @@ backend:
 local_backend: true
 
 # This line should *not* be indented
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 # This line should *not* be indented
 media_folder: assets/images
@@ -18,7 +18,7 @@ collections:
   - name: "workshops"
     label: "Workshops"
     description: "Workshop dates, location, and presenter information."
-    folder: "src/pages/workshops"
+    folder: "website/src/pages/workshops"
     create: true
     fields:
       - { label: "Template Key", name: "templateKey", widget: "hidden", default: "workshop" }
@@ -76,7 +76,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about/index.md"
+      - file: "website/src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
@@ -135,7 +135,7 @@ collections:
                   { label: "Description", name: "description", widget: "string" },
                 ],
             }
-      - file: "src/pages/pastWorkshops/index.md"
+      - file: "website/src/pages/pastWorkshops/index.md"
         label: "Past Workshops"
         name: "pastWorkshops"
         fields:
@@ -158,7 +158,7 @@ collections:
                   { label: "Description", name: "description", widget: "string" },
                 ],
             }
-      - file: "src/pages/home/index.md"
+      - file: "website/src/pages/home/index.md"
         label: "Home"
         name: "home"
         fields:
@@ -174,6 +174,14 @@ collections:
                 ],
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: Google Meta Data, name: meta, widget: object, collapsed: true, 
+              fields: 
+                [
+                  {label: Meta Title, name: metaTitle, widget: text},
+                  {label: Meta Description, name: metaDescription, widget: text},
+                  {label: Robots, name: robots, widget: text}
+                ],
+            }
           - { label: "Upcoming Workshop Heading", name: "upcomingWorkshopHeading", widget: "string" }
           - { label: "No Upcoming Workshop Text", name: "noUpcomingWorkshopText", hint: "This text will be displayed when there are no upcoming workshops", required: true, widget: "string" }
           - { label: "Maps Note", name: "mapsNote", required: true, widget: "string" }
@@ -246,7 +254,7 @@ collections:
   - name: "navbarAndFooter"
     label: "Navbar & Footer"
     files:
-      - file: "src/pages/navbar/index.md"
+      - file: "website/src/pages/navbar/index.md"
         label: "Navbar"
         name: "navbar"
         fields:
@@ -262,7 +270,7 @@ collections:
                   { label: "Link URL", name: "linkURL", widget: "string", hint: "Use a relative URL (e.g. /about) if the link is an internal link." },
                 ],
             }
-      - file: "src/pages/footer/index.md"
+      - file: "website/src/pages/footer/index.md"
         label: "Footer"
         name: "footer"
         fields:
