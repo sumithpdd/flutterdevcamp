@@ -1,14 +1,14 @@
 ---
 templateKey: workshop
 title: Week 8 Flutter Interview
-featuredImage : /images/venue_basement_2.jpg
-date: 2022-09-08T17:54:14.236Z
+featuredImage: /images/venue_basement_2.jpg
+date: 2022-10-29T17:54:14.236Z
 topic: Capstone
+numberOfHours: 2
+numberOfSessions: 4
 formatInperson: false
 formatOnline: true
 showonfooter: true
-numberOfHours: 2
-numberOfSessions: 4
 presenters:
   - name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
@@ -19,7 +19,9 @@ location:
   mapsLatitude: 51.5098435
   mapsLongitude: 0.0788842
 ---
-- Reviewing all projects.
-- Getting tips from different experts.
-- How to create developer resume
-- How to crack Flutter job interview.
+* Reviewing all projects.
+
+  * **Project review, capstone assignment**
+* Getting tips from different experts.
+* How to create developer resume
+* How to crack Flutter job interview.
