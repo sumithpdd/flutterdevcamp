@@ -1,14 +1,14 @@
 ---
 templateKey: workshop
 title: Week 7 Flutter Testing
-featuredImage : /images/venue_basement_2.jpg
+featuredImage: /images/venue_basement_2.jpg
+date: 2022-10-22T17:54:14.236Z
 topic: Testing
+numberOfHours: 2
+numberOfSessions: 5
 formatInperson: false
 formatOnline: true
-date: 2022-09-08T17:54:14.236Z
 showonfooter: true
-numberOfHours: 2
-numberOfSessions: 4
 presenters:
   - name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
