@@ -1,14 +1,14 @@
 ---
 templateKey: workshop
 title: Week 1 Flutter Basics
-featuredImage : /images/venue_basement_2.jpg
-date: 2022-09-08T17:54:14.236Z
+featuredImage: /images/venue_basement_2.jpg
+date: 2022-09-08T10:49:12.213Z
 topic: Basics
+numberOfHours: 2
+numberOfSessions: 4
 formatInperson: true
 formatOnline: true
 showonfooter: true
-numberOfHours: 2
-numberOfSessions: 4
 presenters:
   - name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
@@ -19,8 +19,8 @@ location:
   mapsLatitude: 51.5098435
   mapsLongitude: 0.0788842
 ---
-- Learn the Flutter Basics layout
-- Understand Model and navigation
-- Learn to build multi page Application
-- learn basics of Github
-- 2 Flutter UI assignments
+* Learn the Flutter Basics layout
+* Understand Model and navigation
+* Learn to build multi page Application
+* learn basics of Github
+* 2 Flutter UI assignments
