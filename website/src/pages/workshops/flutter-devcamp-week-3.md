@@ -1,14 +1,14 @@
 ---
 templateKey: workshop
 title: Week 3 API integration
-featuredImage : /images/venue_basement_2.jpg
+featuredImage: /images/venue_basement_2.jpg
 date: 2022-09-08T17:54:14.236Z
 topic: API Integration
+numberOfHours: 2
+numberOfSessions: 4
 formatInperson: false
 formatOnline: true
 showonfooter: true
-numberOfHours: 2
-numberOfSessions: 4
 presenters:
   - name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
@@ -19,7 +19,7 @@ location:
   mapsLatitude: 51.5098435
   mapsLongitude: 0.0788842
 ---
-- Learn about What is API
-- How to integrate REST API with Flutter application
-- Learn advance Flutter widgets.
-- Assignment Project using flutter and REST API.
+* Learn about What is API
+* How to integrate REST API with Flutter application
+* Learn advance Flutter widgets.
+* Assignment Project using flutter and REST API.
