@@ -1,14 +1,14 @@
 ---
 templateKey: workshop
 title: Week 4 State Management
-featuredImage : /images/venue_basement_2.jpg
-date: 2022-09-08T17:54:14.236Z
+featuredImage: /images/venue_basement_2.jpg
+date: 2022-10-01T17:54:14.236Z
 topic: State Management
+numberOfHours: 2
+numberOfSessions: 5
 formatInperson: false
 formatOnline: true
 showonfooter: true
-numberOfHours: 2
-numberOfSessions: 4
 presenters:
   - name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
