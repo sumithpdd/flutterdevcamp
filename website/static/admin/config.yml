@@ -13,6 +13,11 @@ media_folder: static/images
 public_folder: /images
 
 display_url: https://www.flutterdevcamp.com/
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: flutterdevcamp
+    api_key: 664686945695341
 
 collections:
   - name: 'workshops'

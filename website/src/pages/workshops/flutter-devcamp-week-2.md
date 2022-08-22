@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 2 Firebase Integration
-featuredImage: /images/venue_basement_2.jpg
+featuredImage: images/venue_basement_2.jpg
 date: 2022-09-17T17:54:14.236Z
 topic: Flutter Firebase
 numberOfHours: 2

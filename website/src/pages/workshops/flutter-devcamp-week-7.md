@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 7 Flutter Testing
-featuredImage: /images/venue_basement_2.jpg
+featuredImage: images/venue_basement_2.jpg
 date: 2022-10-22T17:54:14.236Z
 topic: Testing
 numberOfHours: 2

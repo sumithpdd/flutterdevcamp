@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 5 Flutter Web
-featuredImage: /images/venue_basement_2.jpg
+featuredImage: images/venue_basement_2.jpg
 date: 2022-10-08T17:54:14.236Z
 topic: Flutter Web
 numberOfHours: 2

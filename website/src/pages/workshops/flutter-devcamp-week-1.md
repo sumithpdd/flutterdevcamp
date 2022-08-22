@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 1 Flutter Basics
-featuredImage: /images/venue_basement_2.jpg
+featuredImage: images/venue_basement_2.jpg
 date: 2022-09-08T10:49:12.213Z
 topic: Basics
 numberOfHours: 2

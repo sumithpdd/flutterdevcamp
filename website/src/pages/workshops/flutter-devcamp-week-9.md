@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 9 Graduation
-featuredImage: /images/venue_basement_2.jpg
+featuredImage: images/venue_basement_2.jpg
 date: 2022-11-10T18:54:14.236Z
 topic: Graduation
 numberOfHours: 2

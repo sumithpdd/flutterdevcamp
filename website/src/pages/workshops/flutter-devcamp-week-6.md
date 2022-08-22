@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 6 Flutter Animation
-featuredImage: /images/venue_basement_2.jpg
+featuredImage: images/venue_basement_2.jpg
 date: 2022-10-15T17:54:14.236Z
 topic: Animation
 numberOfHours: 2
