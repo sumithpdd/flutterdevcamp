@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
-import Img from "gatsby-image"
+import Img from 'gatsby-image'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 // Import Swiper styles
@@ -8,8 +8,8 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 // import required modules
 import { Pagination } from 'swiper'
-  
-import team2 from '../assets/images/team-1-2.jpg' 
+
+import team2 from '../assets/images/team-1-2.jpg'
 
 const WorkshopOne = () => {
   const params = {
@@ -59,11 +59,12 @@ const WorkshopOne = () => {
                   rawDate: date
                   topic
                   templateKey
-                  showonfooter 
+                  featuredImage
+                  showonfooter
                   numberOfHours
                   numberOfSessions
                   formatInperson
-                  formatOnline 
+                  formatOnline
                   presenters {
                     name
                     image
@@ -114,7 +115,9 @@ const WorkshopOne = () => {
                             <div
                               className={`workshop-one__single color-${index}`}
                             >
-                               
+                              <div className="workshop-one__image">
+                                <img src={frontmatter.featuredImage} alt="" />
+                              </div>
                               <div className="workshop-one__content">
                                 <a
                                   href={workshop.node.fields.slug}

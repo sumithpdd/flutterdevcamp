@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 8 Flutter Interview
-featuredImage: images/venue_basement_2.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
 date: 2022-10-29T17:54:14.236Z
 topic: Capstone
 numberOfHours: 2
