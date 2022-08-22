@@ -17,6 +17,7 @@ display_url: https://www.flutterdevcamp.com/
 collections:
   - name: 'workshops'
     label: 'Workshops'
+    slug: '{{slug}}'
     description: 'Workshop dates, location, and presenter information.'
     folder: 'website/src/pages/workshops'
     create: true
