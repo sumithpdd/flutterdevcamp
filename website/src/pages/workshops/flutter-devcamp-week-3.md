@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Week 3 API integration
 featuredImage: /images/venue_basement_2.jpg
-date: 2022-09-08T17:54:14.236Z
+date: 2022-09-24T17:54:14.236Z
 topic: API Integration
 numberOfHours: 2
 numberOfSessions: 4
