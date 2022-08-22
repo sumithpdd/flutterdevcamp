@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
 logoImage:
-  image: /images/Flutter Devcamp-logos_transparent.png
+  image: /images/Flutter_Devcamp-logos_transparent.png
   imageAlt: Flutter Devcamp - Flutter Learning
 title: Flutter Devcamp - Flutter Learning Meet other Flutter Developers
 upcomingWorkshopHeading: Upcoming Workshop

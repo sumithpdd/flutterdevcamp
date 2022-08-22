@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Link } from 'gatsby'
-import logo from '../assets/images/Flutter Devcamp-logos_transparent.png'
+import logo from '../assets/images/Flutter_Devcamp-logos_transparent.png'
 import CustomLink from './CustomLink'
 
 class Navbar extends Component {
