@@ -1,13 +1,13 @@
 ---
 templateKey: workshop
 title: Week 9 Graduation
-featuredImage : /images/venue_basement_2.jpg
-date: 2022-09-08T17:54:14.236Z
+featuredImage: /images/venue_basement_2.jpg
+date: 2022-11-10T18:54:14.236Z
 topic: Graduation
+numberOfHours: 2
+numberOfSessions: 1
 formatInperson: true
 formatOnline: true
-numberOfHours: 2
-numberOfSessions: 4
 showonfooter: true
 presenters:
   - name: Renuka Kelkar
@@ -19,6 +19,6 @@ location:
   mapsLatitude: 51.5098435
   mapsLongitude: 0.0788842
 ---
-- End of the Bootcamp.
-- Setting up Internship Interviews.
-- Lucky one get Opportunity.
+* End of the Bootcamp.
+* Setting up Internship Interviews.
+* Lucky one get Opportunity.
