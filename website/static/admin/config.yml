@@ -9,7 +9,7 @@ local_backend: true
 # publish_mode: editorial_workflow
 
 # This line should *not* be indented
-media_folder: assets/images
+media_folder: static/images
 public_folder: /images
 
 display_url: https://www.flutterdevcamp.com/

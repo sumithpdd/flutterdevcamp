@@ -59,8 +59,7 @@ const WorkshopOne = () => {
                   rawDate: date
                   topic
                   templateKey
-                  showonfooter
-                  body
+                  showonfooter 
                   numberOfHours
                   numberOfSessions
                   formatInperson
