@@ -148,7 +148,7 @@ export const FooterTemplate = ({ data }) => {
                   <i className="kipso-icon-top-arrow"></i>
                 </div>
                 {socialLinks.map((socialLink) => (
-                  <a href={socialLink.linkURL}>
+                  <a href={socialLink.linkURL} key={socialLink.icon}>
                     <i className={"fab " + socialLink.icon}></i>
                   </a>
                 ))}

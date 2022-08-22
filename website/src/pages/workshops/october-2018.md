@@ -1,10 +1,10 @@
 ---
-templateKey: workshop
+templateKey: workshop111
 title: October 2018
 date: 2018-10-09T23:00:00.000Z
 showonfooter: false
 presenters:
-  - image: /assets/images/michael-dam-258165-unsplash.jpg
+  - image: /images/michael-dam-258165-unsplash.jpg
     links:
       - linkText: Authenticated Systems Workshop (Github)
         linkURL: 'https://google.com/'
@@ -14,7 +14,7 @@ presenters:
       In this talk we will go over a few ways you can implement authentication
       (including offline authentication strategies) and then dive into some code
       for both a server and a client which you can adapt to suit your own app.
-  - image: /assets/images/humphrey-muleba-795250-unsplash.jpg
+  - image: /images/meeting-1-1.jpg
     links:
       - linkText: Gatsby Repo
         linkURL: 'https://google.com/'

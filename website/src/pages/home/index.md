@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
-headerImage:
-  image: /assets/images/television.png
+logoImage:
+  image: /images/Flutter Devcamp-logos_transparent.png
   imageAlt: Flutter Devcamp - Flutter Learning
 title: Flutter Devcamp - Flutter Learning Meet other Flutter Developers
 upcomingWorkshopHeading: Upcoming Workshop
@@ -9,7 +9,7 @@ noUpcomingWorkshopText: Details to be announced.
 mapsNote: Clicking the pin opens Google Maps in a new tab.
 callToActions:
   firstCTA:
-    heading: Past Workshops
+    heading: Workshops
     linkType: internal
     linkURL: /workshops
     subHeading: Look at what topics were presented at past workshops.

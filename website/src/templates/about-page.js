@@ -9,7 +9,6 @@ import HTMLContent from "../components/Content";
 
 export const AboutPageTemplate = props => {
   const { page } = props;
-
   return (
     <article className="about">
       <div className="about-container  container">

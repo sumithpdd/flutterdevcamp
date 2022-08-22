@@ -1,10 +1,10 @@
 ---
-templateKey: workshop
+templateKey: workshopex
 title: September 2018
 date: 2018-09-11T22:00:00.000Z
 showonfooter: false
 presenters:
-  - image: /assets/images/edward-cisneros-415601-unsplash.jpg
+  - image: /images/meeting-1-1.jpg
     links:
       - linkText: Async/Await
         linkURL: 'https://google.com/'
@@ -16,7 +16,7 @@ presenters:
       To demistify one of JS' hotest bits of syntax sugar and the familiar
       Promise, Brittany will break down the mechanics of both async patterns by
       building his own naive variations of those language features.
-  - image: /assets/images/marius-ciocirlan-398931-unsplash.jpg
+  - image: /images/marius-ciocirlan-398931-unsplash.jpg
     links:
       - linkText: React Native
         linkURL: 'https://facebook.github.io/react-native/'
