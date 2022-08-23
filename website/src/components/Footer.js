@@ -6,6 +6,7 @@ import footer4 from '../assets/images/footer-1-4.png'
 import footer5 from '../assets/images/footer-1-5.png'
 import footer6 from '../assets/images/footer-1-6.png'
 
+import FooterWorkshops from './FooterWorkshops'
 export const FooterTemplate = ({ data }) => {
   const { copyrightInfo,  socialLinks } = data
   function scrollTop() {
@@ -19,26 +20,7 @@ export const FooterTemplate = ({ data }) => {
             <div className="row">
               <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__contact">
-                  <h2 className="footer-widget__title">Workshops</h2>
-                  <ul className="list-unstyled footer-widget__Workshop-list">
-                    <li>
-                      <h2>
-                        <a href="Workshop-details.html">
-                          Introduction Web Design
-                        </a>
-                      </h2>
-                      <p>Mike Hardson</p>
-                    </li>
-                    <li>
-                      <h2>
-                        <a href="Workshop-details.html">
-                          {' '}
-                          Learning MBA Management{' '}
-                        </a>
-                      </h2>
-                      <p>Jessica Brown</p>
-                    </li>
-                  </ul>
+                   <FooterWorkshops />
                 </div>
               </div>
               <div className="col-xl-3 col-lg-6 col-sm-12">
@@ -49,30 +31,11 @@ export const FooterTemplate = ({ data }) => {
                       <li>
                         <a href="#none">About</a>
                       </li>
-                      <li>
-                        <a href="#none">Overview</a>
-                      </li>
+                      
                       <li>
                         <a href="#none">Mentors</a>
                       </li>
-                      <li>
-                        <a href="#none">Join Us</a>
-                      </li>
-                      <li>
-                        <a href="#none">Our News</a>
-                      </li>
-                    </ul>
-                    <ul className="list-unstyled footer-widget__link-list">
-                      <li>
-                        <a href="#none">Help </a>
-                      </li>
-                      <li>
-                        <a href="#none">Contact</a>
-                      </li>
-                      <li>
-                        <a href="#none">Register Now</a>
-                      </li>
-                    </ul>
+                      </ul>
                   </div>
                 </div>
               </div>
@@ -117,15 +80,15 @@ export const FooterTemplate = ({ data }) => {
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
                   <p className="footer-widget__text">
-                    Lorem ipsum dolor sit ametcon, sectetur adipiscing elit.
-                    Phasellus vehic sagittis euismod.
+                  It's 8 weeks programme which cover Basic to
+advance Flutter concepts
                   </p>
                   <div className="footer-widget__btn-block">
+                    {/* <a href="#none" className="thm-btn">
+                      Apply mentor
+                    </a> */}
                     <a href="#none" className="thm-btn">
-                      Contact
-                    </a>
-                    <a href="#none" className="thm-btn">
-                      Purchase
+                      Apply for mentee
                     </a>
                   </div>
                 </div>

@@ -1,6 +1,5 @@
 import React from 'react'
-import { StaticQuery, graphql, Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { StaticQuery, graphql, Link } from 'gatsby' 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 // Import Swiper styles

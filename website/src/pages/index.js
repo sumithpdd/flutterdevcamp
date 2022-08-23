@@ -1,24 +1,18 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import Helmet from "react-helmet"; 
+import React from 'react'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
 
-import Layout from "../components/Layout"; 
+import Layout from '../components/Layout'
 // import HeadshotPlaceholder from "../assets/images/headshot-placeholder.svg";
-import CustomLink from "../components/CustomLink";
-
-import Topbar from "../components/Topbar";
-import NavOne from "../components/NavOne";
-import SliderOne from "../components/SliderOne"; 
-import AboutTwo from "../components/AboutTwo";
-import WorkshopOne from "../components/WorkshopOne";
-import VideoTwo from "../components/VideoTwo";
-import WorkshopCountdown from "../components/WorkshopCountdown";
-import WorkshopCatOne from "../components/WorkshopCatOne";
-import CallToActionThree from "../components/CallToActionThree";
-import BrandsTwo from "../components/BrandsTwo"; 
-import CallToActionFour from "../components/CallToActionFour"; 
-
+import SliderOne from '../components/SliderOne'
+import AboutTwo from '../components/AboutTwo'
+import WorkshopOne from '../components/WorkshopOne'
+import VideoTwo from '../components/VideoTwo'
+import WorkshopCountdown from '../components/WorkshopCountdown'
+import CallToActionThree from '../components/CallToActionThree'
+import BrandsTwo from '../components/BrandsTwo'
+import CallToActionFour from '../components/CallToActionFour'
 
 export const HomePageTemplate = ({ home }) => {
   // const presenters = upcomingWorkshop && upcomingWorkshop.presenters;
@@ -26,30 +20,28 @@ export const HomePageTemplate = ({ home }) => {
   // const longitude = upcomingWorkshop && parseFloat(upcomingWorkshop.location.mapsLongitude);
   return (
     <>
-         
       <SliderOne />
       <AboutTwo />
       <WorkshopOne />
       <VideoTwo />
       <WorkshopCountdown />
-      <WorkshopCatOne />
       <CallToActionThree />
-      <BrandsTwo /> 
-      <CallToActionFour /> 
+      <BrandsTwo />
+      <CallToActionFour />
     </>
-  );
-};
+  )
+}
 
 class HomePage extends React.Component {
   render() {
-    const { data } = this.props;
+    const { data } = this.props
     const {
       data: { footerData, navbarData },
-    } = this.props;
-    const { frontmatter: home } = data.homePageData.edges[0].node;
+    } = this.props
+    const { frontmatter: home } = data.homePageData.edges[0].node
     const {
       seo: { title: seoTitle, description: seoDescription, browserTitle },
-    } = home;
+    } = home
     // let workshops = null;
 
     // data.allMarkdownRemark.edges.every(item => {
@@ -68,9 +60,9 @@ class HomePage extends React.Component {
           <meta name="description" content={seoDescription} />
           <title>{browserTitle}</title>
         </Helmet>
-        <HomePageTemplate home={home}   />
+        <HomePageTemplate home={home} />
       </Layout>
-    );
+    )
   }
 }
 
@@ -80,14 +72,16 @@ HomePage.propTypes = {
       edges: PropTypes.array,
     }),
   }),
-};
+}
 
-export default HomePage;
+export default HomePage
 
 export const pageQuery = graphql`
   query HomePageQuery {
     allMarkdownRemark(
-      filter: { frontmatter: { presenters: { elemMatch: { text: { ne: null } } } } }
+      filter: {
+        frontmatter: { presenters: { elemMatch: { text: { ne: null } } } }
+      }
       sort: { order: DESC, fields: frontmatter___date }
     ) {
       edges {
@@ -113,7 +107,9 @@ export const pageQuery = graphql`
       }
     }
     ...LayoutFragment
-    homePageData: allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "home-page" } } }) {
+    homePageData: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "home-page" } } }
+    ) {
       edges {
         node {
           frontmatter {
@@ -149,4 +145,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

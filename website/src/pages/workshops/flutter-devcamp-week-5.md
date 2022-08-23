@@ -8,7 +8,7 @@ numberOfHours: 2
 numberOfSessions: 3
 formatInperson: false
 formatOnline: true
-showonfooter: true
+showonfooter: false
 presenters:
   - name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
