@@ -1,24 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react' 
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
 import WorkshopDetails from '../components/WorkshopDetails'
 
-const WorkshopPageTemplate = ({content, workshop = null }) => {
+const WorkshopPageTemplate = ({ content, workshop = null }) => {
   return (
     <>
       <PageHeader title="Workshop Details" />
-      <WorkshopDetails workshop={workshop} content={content}/>
+      <WorkshopDetails workshop={workshop} content={content} />
     </>
   )
-}
-
-WorkshopPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  workshops: PropTypes.array,
 }
 
 const WorkshopPage = ({ data }) => {
@@ -32,17 +25,9 @@ const WorkshopPage = ({ data }) => {
         <meta name="description" content={page.frontmatter.title} />
         <title>{page.frontmatter.title}</title>
       </Helmet>
-      <WorkshopPageTemplate
-         
-        content={page.html}
-        workshop={page.frontmatter}
-      />
+      <WorkshopPageTemplate content={page.html} workshop={page.frontmatter} />
     </Layout>
   )
-}
-
-WorkshopPage.propTypes = {
-  data: PropTypes.object.isRequired,
 }
 
 export default WorkshopPage

@@ -51,17 +51,18 @@ const FooterWorkshops = () => {
         return (
           <>
             <h2 className="footer-widget__title">Workshops</h2>
-            <ul className="list-unstyled footer-widget__Workshop-list">
+            <ul className="list-unstyled footer-widget__workshop-list">
               {workshops.map((workshop, index) => {
                 const { frontmatter } = workshop.node
                 return (
-                  <li>
+                  <li key={index}>
                     <h2>
                       <Link to={workshop.node.fields.slug}>
                         {frontmatter.title}
                       </Link>
                     </h2>
-                    by <a href="/mentor-details">Renuka Kelkar</a> and
+                    <a href="/mentor-details">Renuka Kelkar</a>
+                    <br />
                     <a href="/mentor-details">Sumith Damodaran</a>
                   </li>
                 )

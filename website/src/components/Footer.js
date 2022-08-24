@@ -32,7 +32,7 @@ export const FooterTemplate = ({ data }) => {
                         <a href="#none">About</a>
                       </li>
                       <li>
-                        <a href="#none">Mentors</a>
+                        <a href="/mentors">Mentors</a>
                       </li>
                     </ul>
                   </div>
@@ -43,32 +43,32 @@ export const FooterTemplate = ({ data }) => {
                   <h2 className="footer-widget__title">Gallery</h2>
                   <ul className="list-unstyled footer-widget__gallery-list">
                     <li>
-                      <a href="#none">
+                      <a href="/gallery">
                         <img src={footer1} alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#none">
+                      <a href="/gallery">
                         <img src={footer2} alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#none">
+                      <a href="/gallery">
                         <img src={footer3} alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#none">
+                      <a href="/gallery">
                         <img src={footer4} alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#none">
+                      <a href="/gallery">
                         <img src={footer5} alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#none">
+                      <a href="/gallery">
                         <img src={footer6} alt="" />
                       </a>
                     </li>

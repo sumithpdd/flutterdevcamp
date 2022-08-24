@@ -10,13 +10,13 @@ const Workshops = ({ workshops }) => {
         <div className="row">
           {workshops &&
             workshops.map((workshop, index) => (
-              <div className="col-lg-4">
-                <div className="workshop-one__single" key={index}>
+              <div className="col-lg-4" key={index}>
+                <div className="workshop-one__single">
                   <div className={`workshop-one__single color-${index}`}>
                     <div className="workshop-one__image">
                       <img
                         src={workshop.node.frontmatter.featuredImage}
-                        alt=""
+                        alt={workshop.node.frontmatter.title}
                       />
                     </div>
                     <div className="workshop-one__content">
@@ -71,7 +71,7 @@ const Workshops = ({ workshops }) => {
                         <i className="far fa-clock"></i>{' '}
                         {workshop.node.frontmatter.duration} Hours{' '}
                         <i className="far fa-folder-open"></i>{' '}
-                        {workshop.node.frontmatter.numberOfLectures}
+                        {workshop.node.frontmatter.numberOfLectures}{' '}
                         Lectures
                       </div>{' '}
                       <a
