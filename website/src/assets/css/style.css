@@ -3535,9 +3535,10 @@ a:visited {
 }
 
 .workshop-details__author img {
-    width: 53px;
+    width: 40px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .workshop-details__top {

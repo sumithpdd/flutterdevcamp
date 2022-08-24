@@ -1,54 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react' 
 import { graphql } from 'gatsby'
-import Helmet from 'react-helmet' 
-import Layout from '../components/Layout' 
+import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
 
-import PageHeader from "../components/PageHeader"; 
-import Workshops from "../components/Workshops";
+import PageHeader from '../components/PageHeader'
+import Workshops from '../components/Workshops'
 
-const WorkshopsPageTemplate = ({
-  title,
-  content,
-  workshops = null, 
-}) => {
-  
+const WorkshopsPageTemplate = ({ title, workshops = null }) => {
   return (
     <>
       <PageHeader title={title} />
-      <Workshops workshops = {workshops}/>
+      <Workshops workshops={workshops} />
     </>
-    // <article className="pastWorkshops">
-    //   <div className="container  pastWorkshops-container">
-    //     <h1 className="pastWorkshops-title">{title}</h1>
-    //     {bodyIsMarkdown ? (
-    //       <ReactMarkdown
-    //         className="pastWorkshops-description"
-    //         source={content}
-    //       />
-    //     ) : (
-    //       <HTMLContent
-    //         className="pastWorkshops-description"
-    //         content={content}
-    //       />
-    //     )}
-    //     {workshops &&
-    //       workshops.map((workshop, index) => (
-    //         <WorkshopTemplate
-    //           key={index}
-    //           className="pastWorkshops-workshop"
-    //           workshop={workshop.node.frontmatter}
-    //         />
-    //       ))}
-    //   </div>
-    // </article>
   )
-}
-
-WorkshopsPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  workshops: PropTypes.array,
 }
 
 const WorkshopsPage = ({ data }) => {
@@ -59,11 +23,11 @@ const WorkshopsPage = ({ data }) => {
     },
   } = page
   let workshops = data.allMarkdownRemark.edges
-  
+
   // Find all the workshops that occured in the past
   // workshops = workshops.filter((workshop) => {
   //   return isBefore(workshop.node.frontmatter.rawDate, new Date()) && workshop
-  // }) 
+  // })
 
   return (
     // <Layout footerData={data.footerData} navbarData={data.navbarData}>
@@ -93,10 +57,6 @@ const WorkshopsPage = ({ data }) => {
   )
 }
 
-WorkshopsPage.propTypes = {
-  data: PropTypes.object.isRequired,
-}
-
 export default WorkshopsPage
 
 export const pageQuery = graphql`
@@ -114,8 +74,8 @@ export const pageQuery = graphql`
     }
     ...LayoutFragment
     allMarkdownRemark(
-      filter: {frontmatter: {templateKey: {eq: "workshop"}}}
-      sort: {order: ASC, fields: frontmatter___date}
+      filter: { frontmatter: { templateKey: { eq: "workshop" } } }
+      sort: { order: ASC, fields: frontmatter___date }
     ) {
       edges {
         node {
@@ -128,8 +88,8 @@ export const pageQuery = graphql`
             templateKey
             featuredImage
             showonfooter
-            numberOfHours
-            numberOfSessions
+            duration
+            numberOfLectures
             formatInperson
             formatOnline
             presenters {

@@ -60,8 +60,8 @@ const WorkshopOne = () => {
                   templateKey
                   featuredImage
                   showonfooter
-                  numberOfHours
-                  numberOfSessions
+                  duration
+                  numberOfLectures
                   formatInperson
                   formatOnline
                   presenters {
@@ -168,9 +168,9 @@ const WorkshopOne = () => {
                                 </div>
                                 <div className="workshop-one__meta">
                                   <i className="far fa-clock"></i>{' '}
-                                  {frontmatter.numberOfHours} Hours{' '}
+                                  {frontmatter.duration} Hours{' '}
                                   <i className="far fa-folder-open"></i>{' '}
-                                  {frontmatter.numberOfSessions}
+                                  {frontmatter.numberOfLectures}
                                   Lectures
                                 </div>{' '}
                                 <a

@@ -1,5 +1,5 @@
 import React from "react"; 
-import { Swiper, SwiperSlide , useSwiper  } from 'swiper/react';
+import { Swiper,    } from 'swiper/react';
 
 import Workshop1 from "../assets/images/workshop-1-1.jpg";
 import Workshop2 from "../assets/images/workshop-1-2.jpg";

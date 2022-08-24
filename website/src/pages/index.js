@@ -14,7 +14,7 @@ import CallToActionThree from '../components/CallToActionThree'
 import BrandsTwo from '../components/BrandsTwo'
 import CallToActionFour from '../components/CallToActionFour'
 
-export const HomePageTemplate = ({ home }) => {
+  const HomePageTemplate = ({ home }) => {
   // const presenters = upcomingWorkshop && upcomingWorkshop.presenters;
   // const latitude = upcomingWorkshop && parseFloat(upcomingWorkshop.location.mapsLatitude);
   // const longitude = upcomingWorkshop && parseFloat(upcomingWorkshop.location.mapsLongitude);

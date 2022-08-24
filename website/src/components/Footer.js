@@ -8,7 +8,7 @@ import footer6 from '../assets/images/footer-1-6.png'
 
 import FooterWorkshops from './FooterWorkshops'
 export const FooterTemplate = ({ data }) => {
-  const { copyrightInfo,  socialLinks } = data
+  const { copyrightInfo, socialLinks } = data
   function scrollTop() {
     window.scrollTo(0, 0)
   }
@@ -20,7 +20,7 @@ export const FooterTemplate = ({ data }) => {
             <div className="row">
               <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__contact">
-                   <FooterWorkshops />
+                  <FooterWorkshops />
                 </div>
               </div>
               <div className="col-xl-3 col-lg-6 col-sm-12">
@@ -31,11 +31,10 @@ export const FooterTemplate = ({ data }) => {
                       <li>
                         <a href="#none">About</a>
                       </li>
-                      
                       <li>
                         <a href="#none">Mentors</a>
                       </li>
-                      </ul>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -80,8 +79,8 @@ export const FooterTemplate = ({ data }) => {
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
                   <p className="footer-widget__text">
-                  It's 8 weeks programme which cover Basic to
-advance Flutter concepts
+                    It's 8 weeks programme which cover Basic to advance Flutter
+                    concepts
                   </p>
                   <div className="footer-widget__btn-block">
                     {/* <a href="#none" className="thm-btn">
@@ -112,7 +111,7 @@ advance Flutter concepts
                 </div>
                 {socialLinks.map((socialLink) => (
                   <a href={socialLink.linkURL} key={socialLink.icon}>
-                    <i className={"fab " + socialLink.icon}></i>
+                    <i className={'fab ' + socialLink.icon}></i>
                   </a>
                 ))}
               </div>

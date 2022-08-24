@@ -4,13 +4,17 @@ title: Week 2 Firebase Integration
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
 date: 2022-09-17T17:54:14.236Z
 topic: Flutter Firebase
-numberOfHours: 2
-numberOfSessions: 4
+duration: 2
+numberOfLectures: 4
+maxNumberofStudents: 40
+skillLevel: Basic
+language: English
 formatInperson: false
 formatOnline: true
 showonfooter: true
 presenters:
-  - name: Renuka Kelkar
+  - image: /images/author-1-1.jpg
+    name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
     text: about renuka
 location:

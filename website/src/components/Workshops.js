@@ -69,9 +69,9 @@ const Workshops = ({ workshops }) => {
                       </div>
                       <div className="workshop-one__meta">
                         <i className="far fa-clock"></i>{' '}
-                        {workshop.node.frontmatter.numberOfHours} Hours{' '}
+                        {workshop.node.frontmatter.duration} Hours{' '}
                         <i className="far fa-folder-open"></i>{' '}
-                        {workshop.node.frontmatter.numberOfSessions}
+                        {workshop.node.frontmatter.numberOfLectures}
                         Lectures
                       </div>{' '}
                       <a

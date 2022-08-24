@@ -44,17 +44,35 @@ collections:
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Topic', name: 'topic', widget: 'text' }
       - {
-          label: 'Number Of Hours',
-          name: 'numberOfHours',
+          label: 'Duration in Hours',
+          name: 'duration',
           widget: 'number',
           default: 2,
         }
       - {
-          label: 'Number Of Sessions',
-          name: 'numberOfSessions',
+          label: 'Number Of Lectures',
+          name: 'numberOfLectures',
           widget: 'number',
           default: 4,
         }
+      - {
+          label: 'Max Number of Students',
+          name: 'maxNumberofStudents',
+          widget: 'number',
+          default: 40,
+        }
+      - {
+          label: 'Skill Level',
+          name: 'skillLevel',
+          widget: text,
+          default: "Basic",
+        }
+      - {
+          label: 'Language',
+          name: 'language',
+          widget: text,
+          default: "English",
+        } 
       - {
           label: 'Format Inperson',
           name: 'formatInperson',
