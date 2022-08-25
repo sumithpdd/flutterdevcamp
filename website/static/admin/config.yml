@@ -64,15 +64,16 @@ collections:
       - {
           label: 'Skill Level',
           name: 'skillLevel',
-          widget: text,
-          default: "Basic",
+          default: 'Basic',
+          widget: 'select',
+          options: ['Basic', 'Intermediate', 'Advanced'],
         }
       - {
           label: 'Language',
           name: 'language',
           widget: text,
-          default: "English",
-        } 
+          default: 'English',
+        }
       - {
           label: 'Format Inperson',
           name: 'formatInperson',
@@ -488,3 +489,79 @@ collections:
                   { label: 'Link URL', name: 'linkURL', widget: 'string' },
                 ],
             }
+  - name: 'mentor'
+    label: 'Mentor'
+    identifier_field: 'name'
+    slug: '{{slug}}'
+    folder: 'website/src/pages/mentors'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'workshop',
+        }
+      
+      - { label: 'Full Name', name: 'name', widget: 'string' }
+      - { label: 'Email', name: 'email', widget: 'string' }
+      - { label: 'Job Title', name: 'jobTitle', widget: 'string' }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          required: false,
+          hint: "If an image isn't specified, a default placeholder image will be used",
+          widget: image,
+        }
+      - { label: 'Quote', name: 'quote', widget: 'text' }
+      - { label: 'Bio', name: 'bio', widget: 'text' }
+      - {
+          label: 'Linkedin',
+          name: 'linkedin',
+          widget: 'string',
+          pattern:
+            [
+              '[(https:\/\/www\.linkedin.com)]{20}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/=]*)+',
+              'Must be Linkedin URL',
+            ],
+        }
+      - {
+          label: 'Twitter',
+          name: 'twitter',
+          widget: 'string',
+           
+        }
+      - {
+          label: 'Github',
+          name: 'github',
+          widget: 'string',
+          pattern:
+            ['(https?://github.com/[a-zA-Z0-9-]*/?)', 'Must be Github URL'],
+        }
+       
+      - label: 'Skillset'
+        name: 'skillset'
+        widget: 'list'
+        fields:      
+          - { label: 'Skill', name: 'skill', widget: 'string' }
+          - {
+              label: 'Skill Level',
+              name: 'skillLevel',
+              widget: 'number',
+              hint: '1 to 100',
+              default: 90,
+            }
+      - {
+          label: 'Certification',
+          name: 'certificates',
+          widget: 'list',
+          fields:
+            [
+              { label: 'Image', name: 'image', widget: 'image' },
+              {
+                label: 'Image Description',
+                name: 'imageAlt',
+                widget: 'string',
+              },
+            ],
+        }
