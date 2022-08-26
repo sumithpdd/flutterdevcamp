@@ -18,17 +18,6 @@ bio: I used to be know as a "Transformation GURU", Started in tech during its
 linkedin: https://www.linkedin.com/in/sumith-damodaran/
 twitter: https://www.twitter.com/sumithpdd/
 github: https://github.com/sumithpdd
-skillset:
-  - skills:
-      - skillLevel: 90
-    skill: Flutter
-    skillLevel: 80
-  - skillsetHead: Flutter
-    skills:
-      - skillLevel: 90
-        skill: Flutter
-      - skillLevel: 90
-    skill: Product
-    skillLevel: 73
+skillset:   
 title: Product Manager
 ---
