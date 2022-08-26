@@ -94,7 +94,7 @@ const WorkshopOne = () => {
               <div className="container">
                 <div className="block-title mb-0">
                   <h2 className="block-title__title">
-                    Workshop one Explore our <br />
+                    Explore our <br />
                     popular Workshops
                   </h2>
                 </div>

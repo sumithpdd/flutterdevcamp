@@ -514,8 +514,8 @@ collections:
           widget: image,
         }
       - {
-          label: Main Image,
-          name: mainImage,
+          label: Mentor Image,
+          name: mentorImage,
           required: false,
           hint: "Image size 570 x 505 ",
           widget: image,

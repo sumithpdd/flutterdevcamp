@@ -7,23 +7,21 @@ import Layout from '../components/Layout'
 // import HeadshotPlaceholder from "../assets/images/headshot-placeholder.svg";
 import SliderOne from '../components/SliderOne'
 import AboutTwo from '../components/AboutTwo'
-import WorkshopOne from '../components/WorkshopOne' 
+import WorkshopOne from '../components/WorkshopOne'
 import BrandsTwo from '../components/BrandsTwo'
 import CallToActionFour from '../components/CallToActionFour'
 
-import CallToActionTwo from "../components/CallToActionTwo";
-  const HomePageTemplate = ({ home }) => {
+import CallToActionTwo from '../components/CallToActionTwo'
+const HomePageTemplate = ({ home }) => {
   // const presenters = upcomingWorkshop && upcomingWorkshop.presenters;
   // const latitude = upcomingWorkshop && parseFloat(upcomingWorkshop.location.mapsLatitude);
   // const longitude = upcomingWorkshop && parseFloat(upcomingWorkshop.location.mapsLongitude);
   return (
     <>
       <SliderOne />
-      <AboutTwo />
-      <WorkshopOne /> 
+      <WorkshopOne />
       <CallToActionTwo />
       <BrandsTwo />
-      <CallToActionFour />
     </>
   )
 }

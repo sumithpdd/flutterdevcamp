@@ -68,7 +68,7 @@ export const pageQuery = graphql`
             name
             bio
             featuredImage
-            mainImage
+            mentorImage
             quote
             bio
             jobTitle
