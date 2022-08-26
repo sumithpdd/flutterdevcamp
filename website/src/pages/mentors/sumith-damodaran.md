@@ -3,7 +3,7 @@ templateKey: mentor
 name: Sumith Damodaran
 email: sumithpd@gmail.com
 jobTitle: Product manager
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661261840/flutterdevcamp/sumith2020_n30tzo.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_206,w_206/v1661261840/flutterdevcamp/sumith2020_n30tzo.jpg
 quote: I Build products ! UX/UI, Anything Web/Tech (javascript, CSS, HTML)
 bio: I used to be know as a "Transformation GURU", Started in tech during its
   infancy and good success start of my career working in tech and finance that
