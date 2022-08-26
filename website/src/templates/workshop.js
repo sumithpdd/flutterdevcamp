@@ -34,6 +34,7 @@ export default WorkshopPage
 
 export const pageQuery = graphql`
   query WorkshopPage($id: String!) {
+    ...LayoutFragment
     markdownRemark(id: { eq: $id }) {
       html
       id

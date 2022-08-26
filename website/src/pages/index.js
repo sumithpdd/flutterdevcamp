@@ -6,10 +6,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 // import HeadshotPlaceholder from "../assets/images/headshot-placeholder.svg";
 import SliderOne from '../components/SliderOne'
-import AboutTwo from '../components/AboutTwo'
 import WorkshopOne from '../components/WorkshopOne'
 import BrandsTwo from '../components/BrandsTwo'
-import CallToActionFour from '../components/CallToActionFour'
 
 import CallToActionTwo from '../components/CallToActionTwo'
 const HomePageTemplate = ({ home }) => {

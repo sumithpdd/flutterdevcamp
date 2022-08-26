@@ -29,7 +29,7 @@ export const FooterTemplate = ({ data }) => {
                   <div className="footer-widget__link-wrap">
                     <ul className="list-unstyled footer-widget__link-list">
                       <li>
-                        <a href="#none">About</a>
+                        <a href="/about">About</a>
                       </li>
                       <li>
                         <a href="/mentors">Mentors</a>
@@ -79,14 +79,14 @@ export const FooterTemplate = ({ data }) => {
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
                   <p className="footer-widget__text">
-                    It's 8 weeks programme which cover Basic to advance Flutter
+                    A 8 weeks programme which cover Basic to advance Flutter
                     concepts
                   </p>
                   <div className="footer-widget__btn-block">
                     {/* <a href="#none" className="thm-btn">
                       Apply mentor
                     </a> */}
-                    <a href="#none" className="thm-btn">
+                    <a href="https://docs.google.com/forms/d/1GSGRXNdGAA2dEKECRlVmB5Px9f1M-iyg6an9vgv-1lE" className="thm-btn">
                       Apply for mentee
                     </a>
                   </div>

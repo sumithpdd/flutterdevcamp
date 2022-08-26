@@ -34,6 +34,7 @@ export default MentorPage
 
 export const pageQuery = graphql`
   query MentorPage($id: String!) {
+    ...LayoutFragment
     markdownRemark(id: {eq: $id}) {
       html
       id

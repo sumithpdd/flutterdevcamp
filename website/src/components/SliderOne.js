@@ -1,11 +1,10 @@
 import React from 'react'
 // Import Swiper React components
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
+import { useSwiper } from 'swiper/react'
 
 // Import Swiper styles
 import 'swiper/css'
 import slidestrech from '../assets/images/slider-1-scratch.png'
-import person1 from '../assets/images/kari-shea-vGgaESc2M1Y-unsplash.jpg' 
 const SliderOne = () => {
   const swiper = useSwiper()
 
