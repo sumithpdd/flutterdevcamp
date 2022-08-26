@@ -1,13 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import team1 from '../assets/images/team-1-1.jpg'
-import team2 from '../assets/images/team-1-2.jpg'
-import team3 from '../assets/images/team-1-3.jpg'
-import team4 from '../assets/images/team-1-4.jpg'
-import team5 from '../assets/images/team-1-5.jpg'
-import team6 from '../assets/images/team-1-6.jpg'
-import team7 from '../assets/images/team-1-7.jpg'
-import team8 from '../assets/images/team-1-8.jpg'
 
 const div_row_center_style = {
   align: 'center',

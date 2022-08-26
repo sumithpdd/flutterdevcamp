@@ -18,8 +18,8 @@ const CallToActionTwo = () => {
                   There are many variations of passages of lore available but{" "}
                   <br /> the majority have suffered alteration in some form.
                 </p>
-                <a href="#none" className="thm-btn cta-two__btn">
-                  Start Teaching
+                <a href="https://docs.google.com/forms/d/1OvAHbrlW7Dxp_lbqrororZ9XCa7VeixrDcUTlxTs20o" className="thm-btn cta-two__btn">
+                  Mentor Signup
                 </a>
               </div>
             </div>
@@ -34,10 +34,11 @@ const CallToActionTwo = () => {
               <div className="cta-two__content">
                 <h2 className="cta-two__title">Join our community</h2>
                 <p className="cta-two__text">
-                  There are many variations of passages of lore available but{" "}
-                  <br /> the majority have suffered alteration in some form.
+                  Love Flutter 💙{" "}
+                  <br /> Join our community to learn and buila a career you love.
+                  Code meaningful applications from scratch by becoming a Flutter Developer.
                 </p>
-                <a href="#none" className="thm-btn cta-two__btn">
+                <a href="https://docs.google.com/forms/d/1GSGRXNdGAA2dEKECRlVmB5Px9f1M-iyg6an9vgv-1lE" className="thm-btn cta-two__btn">
                   Start Learning
                 </a>
               </div>

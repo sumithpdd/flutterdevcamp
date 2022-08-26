@@ -7,13 +7,11 @@ import Layout from '../components/Layout'
 // import HeadshotPlaceholder from "../assets/images/headshot-placeholder.svg";
 import SliderOne from '../components/SliderOne'
 import AboutTwo from '../components/AboutTwo'
-import WorkshopOne from '../components/WorkshopOne'
-import VideoTwo from '../components/VideoTwo'
-import WorkshopCountdown from '../components/WorkshopCountdown'
-import CallToActionThree from '../components/CallToActionThree'
+import WorkshopOne from '../components/WorkshopOne' 
 import BrandsTwo from '../components/BrandsTwo'
 import CallToActionFour from '../components/CallToActionFour'
 
+import CallToActionTwo from "../components/CallToActionTwo";
   const HomePageTemplate = ({ home }) => {
   // const presenters = upcomingWorkshop && upcomingWorkshop.presenters;
   // const latitude = upcomingWorkshop && parseFloat(upcomingWorkshop.location.mapsLatitude);
@@ -22,10 +20,8 @@ import CallToActionFour from '../components/CallToActionFour'
     <>
       <SliderOne />
       <AboutTwo />
-      <WorkshopOne />
-      <VideoTwo />
-      <WorkshopCountdown />
-      <CallToActionThree />
+      <WorkshopOne /> 
+      <CallToActionTwo />
       <BrandsTwo />
       <CallToActionFour />
     </>
