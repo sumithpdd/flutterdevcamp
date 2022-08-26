@@ -38,7 +38,7 @@ collections:
           label: Featured Image,
           name: featuredImage,
           required: false,
-          hint: "If an image isn't specified, a default placeholder image will be used",
+          hint: "Image size 206 x 206 ",
           widget: image,
         }
       - { label: 'Date', name: 'date', widget: 'datetime' }
@@ -284,7 +284,7 @@ collections:
               default: 'home-page',
             }
           - {
-              label: 'Header Image',
+              label: 'Header Logo Image',
               name: 'logoImage',
               widget: 'object',
               fields:
@@ -510,7 +510,14 @@ collections:
           label: Featured Image,
           name: featuredImage,
           required: false,
-          hint: "If an image isn't specified, a default placeholder image will be used",
+          hint: "Image size 206 x 206 ",
+          widget: image,
+        }
+      - {
+          label: Main Image,
+          name: mainImage,
+          required: false,
+          hint: "Image size 570 x 505 ",
           widget: image,
         }
       - { label: 'Quote', name: 'quote', widget: 'text' }

@@ -28,7 +28,7 @@ const Mentor = ({ mentors }) => {
                   </div>
                   <div className="team-one__content">
                     <h2 className="team-one__name">
-                      <Link to="/mentor-details">{mentor.node.frontmatter.name} </Link>
+                      <Link to={mentor.node.fields.slug}>{mentor.node.frontmatter.name} </Link>
                     </h2>
                     <p className="team-one__designation">{mentor.node.frontmatter.jobTitle}</p>
                     <p className="team-one__text">{mentor.node.frontmatter.quote}</p>
