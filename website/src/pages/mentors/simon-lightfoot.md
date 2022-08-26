@@ -1,5 +1,5 @@
 ---
-templateKey: workshop
+templateKey: mentor
 name: Simon Lightfoot
 email: "simon@devangels.london "
 jobTitle: CTO, DevAngels Limited

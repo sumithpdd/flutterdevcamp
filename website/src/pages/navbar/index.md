@@ -9,7 +9,7 @@ menuItems:
     linkURL: /workshops
   - label: Mentors
     linkType: internal
-    linkURL: /Mentors
+    linkURL: /mentors
   - label: About
     linkType: internal
     linkURL: /about

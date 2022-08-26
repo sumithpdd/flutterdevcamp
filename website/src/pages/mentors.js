@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import Mentor from "../components/Mentor";
+import Mentors from "../components/Mentors";
 import CallToActionTwo from "../components/CallToActionTwo";
 
 const MentorPage = () => {
@@ -11,7 +11,7 @@ const MentorPage = () => {
         <Layout pageTitle="Flutter DevCamp | Mentor">
             <NavOne />
             <PageHeader title="Mentor" />
-            <Mentor />
+            <Mentors />
             <CallToActionTwo />
             <Footer />
         </Layout>

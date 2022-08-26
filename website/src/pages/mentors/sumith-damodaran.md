@@ -1,5 +1,5 @@
 ---
-templateKey: workshop
+templateKey: mentor
 name: Sumith Damodaran
 email: sumithpd@gmail.com
 jobTitle: Product manager
