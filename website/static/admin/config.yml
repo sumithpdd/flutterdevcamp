@@ -642,7 +642,13 @@ collections:
           widget: 'list',
           fields:
             [
-              { label: 'Image', name: 'image', widget: 'image' },
+              { label: 'Large Image', name: 'largeImage', widget: 'image',hint: 'Image size 370 x 407 ', },
+              {
+                label: 'Thumbnail Image',
+                name: 'thumbnailImage',
+                widget: 'image',
+                hint: 'Image size 66 x 66 ',
+              },
               {
                 label: 'Image Description',
                 name: 'imageAlt',
