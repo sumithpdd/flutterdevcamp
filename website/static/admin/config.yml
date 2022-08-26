@@ -619,6 +619,34 @@ collections:
                     label: 'Additonal Notes',
                     name: 'companyAdditionalNotes',
                     widget: 'text',
-                  }
+                  },
                 ],
             }
+  - name: 'imageGallery'
+    label: 'imageGallery'
+    identifier_field: 'name'
+    slug: '{{slug}}'
+    folder: 'website/src/pages/gallery'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'gallery',
+        }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Gallery Images',
+          name: 'galleryImages',
+          widget: 'list',
+          fields:
+            [
+              { label: 'Image', name: 'image', widget: 'image' },
+              {
+                label: 'Image Description',
+                name: 'imageAlt',
+                widget: 'string',
+              },
+            ],
+        }
