@@ -3,7 +3,7 @@ templateKey: workshop
 name: Renuka Kelkar
 email: renuvkelkar@gmail.com
 jobTitle: Flutter GDE
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661261862/flutterdevcamp/1_wOOc61yYplJC9RbdvI9lGw_bfdngl.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_206,w_206/v1661261862/flutterdevcamp/1_wOOc61yYplJC9RbdvI9lGw_bfdngl.jpg
 quote: Mentored 1000+ women and students worldwide
 bio: |-
   Renuka is a Google Developer Expert for Flutter based in London. She
