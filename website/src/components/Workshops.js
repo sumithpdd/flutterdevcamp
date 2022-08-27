@@ -2,8 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import team2 from '../assets/images/team-1-2.jpg'
 
-const Workshops = ({ workshops }) => {
-  console.log(workshops)
+const Workshops = ({ workshops }) => { 
   return (
     <section className="workshop-one Workshop-page">
       <div className="container">

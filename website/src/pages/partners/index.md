@@ -1,4 +1,5 @@
 ---
+templateKey: about-page
 sponsors:
   - companyName: Google
     companyContactName: Natalia Stones
