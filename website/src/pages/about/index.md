@@ -2,10 +2,10 @@
 templateKey: about-page
 title: Flutter DevCamp about
 mainImage:
-  image: /images/teemu-paananen-376238-unsplash.jpg
+  image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,w_400/v1661175580/flutterdevcamp/venue_basement_2_tjevwz.jpg
   imageAlt: Flutter DevCamp presenting at a workshop.
 gallery:
-  - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175580/flutterdevcamp/venue_basement_2_tjevwz.jpg
+  - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,w_400/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
     imageAlt: our location
 developerGroups: |-
   ## Other Developer Groups
@@ -14,13 +14,13 @@ developerGroups: |-
 organizers:
   title: Group Organizers
   gallery:
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661261840/flutterdevcamp/sumith2020_n30tzo.jpg
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_200,w_200/v1661261840/flutterdevcamp/mentors/sumith2020_n30tzo.jpg
       name: Sumith Damodaran
       imageAlt: Sumith Damodaran
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661261862/flutterdevcamp/1_wOOc61yYplJC9RbdvI9lGw_bfdngl.jpg
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_200,w_200/v1661261862/flutterdevcamp/mentors/1_wOOc61yYplJC9RbdvI9lGw_bfdngl.jpg
       name: Renuka Kelkar
       imageAlt: Renuka Kelkar
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661261886/flutterdevcamp/LgFqlJ4U_400x400_xbpmrv.jpg
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,w_200/v1661261886/flutterdevcamp/mentors/LgFqlJ4U_400x400_xbpmrv.jpg
       name: Simon Lightfoot
       imageAlt: Simon Lightfoot
 seo:
