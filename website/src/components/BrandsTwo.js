@@ -57,9 +57,9 @@ const BrandsTwo = () => {
           }
         }
       `}
-      render={(data) => {
+      render={(data) => {v
         const partners =
-          data.allMarkdownRemark.edges[0].node.frontmatter
+          data.allMarkdownRemark.edges[0].node.frontmatter.partners
         return (
           <section className="brand-two ">
             <div className="container">
@@ -70,8 +70,11 @@ const BrandsTwo = () => {
                 <Swiper {...params}>
                   {partners.map((partner, index) => {
                     return (
-                      <div className="item">
-                        <img src={brand1} alt="" />
+                      <div className="item" key={index}>
+                        <img
+                          src={partner.companyLogo}
+                          alt={partner.companyName}
+                        />
                       </div>
                     )
                   })}
