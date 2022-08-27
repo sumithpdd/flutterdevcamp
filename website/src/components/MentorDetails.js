@@ -45,7 +45,7 @@ const MentorDetails = ({ content, mentor = null }) => {
           <div className="col-lg-6">
             <div className="team-one__single">
               <div className="team-one__image">
-                <img src={mentor.mentorImage} alt={mentor.name} />
+                <img src={mentor.mentorPhoto} alt={mentor.name} />
               </div>
               <div className="team-one__content">
                 <h2 className="team-one__name">

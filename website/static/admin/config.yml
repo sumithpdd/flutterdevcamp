@@ -514,8 +514,8 @@ collections:
           widget: image,
         }
       - {
-          label: Mentor Image,
-          name: mentorImage,
+          label: Mentor Photo,
+          name: mentorPhoto,
           required: false,
           hint: 'Image size 570 x 505 ',
           widget: image,
@@ -569,54 +569,59 @@ collections:
         }
   - name: 'sponsorsAndPartners'
     label: 'Sponsors & Partners'
-    create: true
     files:
       - file: 'website/src/pages/partners/index.md'
-    fields:
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'partners',
-        }
-      - {
-          label: 'Sponsors',
-          name: 'sponsors',
-          widget: 'list',
-          fields:
-            [
-              { label: 'Company Name', name: 'companyName', widget: 'string' },
-              {
-                label: 'Company Contact Name',
-                name: 'companyContactName',
-                widget: 'string',
-              },
-              {
-                label: 'Company Type',
-                name: 'companyType',
-                widget: 'select',
-                options: ['sponsor', 'partner'],
-              },
-              {
-                label: 'Company URL',
-                name: 'companyURL',
-                widget: 'string',
-                hint: 'Use any URL ',
-              },
-              {
-                label: Company Logo,
-                name: companyLogo,
-                required: true,
-                hint: 'Image size 206 x 206 ',
-                widget: image,
-              },
-              {
-                label: 'Additonal Notes',
-                name: 'companyAdditionalNotes',
-                widget: 'text',
-              },
-            ],
-        }
+      - label: 'Partners'
+        name: 'partners'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'partners',
+            }
+          - {
+              label: 'Sponsors',
+              name: 'sponsors',
+              widget: 'list',
+              fields:
+                [
+                  {
+                    label: 'Company Name',
+                    name: 'companyName',
+                    widget: 'string',
+                  },
+                  {
+                    label: 'Company Contact Name',
+                    name: 'companyContactName',
+                    widget: 'string',
+                  },
+                  {
+                    label: 'Company Type',
+                    name: 'companyType',
+                    widget: 'select',
+                    options: ['sponsor', 'partner'],
+                  },
+                  {
+                    label: 'Company URL',
+                    name: 'companyURL',
+                    widget: 'string',
+                    hint: 'Use any URL ',
+                  },
+                  {
+                    label: Company Logo,
+                    name: companyLogo,
+                    required: true,
+                    hint: 'Image size 206 x 206 ',
+                    widget: image,
+                  },
+                  {
+                    label: 'Additonal Notes',
+                    name: 'companyAdditionalNotes',
+                    widget: 'text',
+                  },
+                ],
+            }
   - name: 'imageGallery'
     label: 'imageGallery'
     identifier_field: 'date'

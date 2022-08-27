@@ -1,6 +1,6 @@
 import React from 'react'
 import Swiper from 'react-id-swiper'
-
+import { StaticQuery, graphql } from 'gatsby' 
 import brand1 from '../assets/images/brand-1-1.png'
 // Import Swiper styles
 import 'swiper/css'
@@ -34,7 +34,7 @@ const BrandsTwo = () => {
   return (
     <StaticQuery
       query={graphql`
-        query WorkshopList {
+        query PartnersList {
           allMarkdownRemark(
             filter: { frontmatter: { templateKey: { eq: "partners" } } }
             sort: { order: ASC, fields: frontmatter___date }
