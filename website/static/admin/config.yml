@@ -570,8 +570,8 @@ collections:
   - name: 'sponsorsAndPartners'
     label: 'Sponsors & Partners'
     files:
-      - file: 'website/src/pages/partners/index.md'
       - label: 'Partners'
+        file: 'website/src/pages/partners/index.md'      
         name: 'partners'
         fields:
           - {
