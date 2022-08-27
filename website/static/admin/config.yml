@@ -581,8 +581,8 @@ collections:
               default: 'partners',
             }
           - {
-              label: 'Sponsors',
-              name: 'sponsors',
+              label: 'Partners',
+              name: 'partners',
               widget: 'list',
               fields:
                 [

@@ -1,6 +1,6 @@
 ---
-templateKey: about-page
-sponsors:
+templateKey: partners
+partners:
   - companyName: Google
     companyContactName: Natalia Stones
     companyType: partner

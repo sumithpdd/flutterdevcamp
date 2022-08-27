@@ -1,6 +1,6 @@
 import React from 'react'
 import Swiper from 'react-id-swiper'
-import { StaticQuery, graphql } from 'gatsby' 
+import { StaticQuery, graphql } from 'gatsby'
 import brand1 from '../assets/images/brand-1-1.png'
 // Import Swiper styles
 import 'swiper/css'
@@ -37,34 +37,16 @@ const BrandsTwo = () => {
         query PartnersList {
           allMarkdownRemark(
             filter: { frontmatter: { templateKey: { eq: "partners" } } }
-            sort: { order: ASC, fields: frontmatter___date }
           ) {
             edges {
               node {
                 id
                 frontmatter {
-                  title
-                  formattedDate: date(formatString: "MMMM Do YYYY @ h:mm A")
-                  rawDate: date
-                  topic
-                  templateKey
-                  featuredImage
-                  showonfooter
-                  duration
-                  numberOfLectures
-                  formatInperson
-                  formatOnline
-                  presenters {
-                    name
-                    image
-                    text
-                    presentationTitle
-                  }
-                  location {
-                    mapsLatitude
-                    mapsLongitude
-                    mapsLink
-                    name
+                  partners {
+                    companyLogo
+                    companyName
+                    companyURL
+                    companyType
                   }
                 }
                 fields {
@@ -72,12 +54,12 @@ const BrandsTwo = () => {
                 }
               }
             }
-            totalCount
           }
         }
       `}
       render={(data) => {
-        const { edges: workshops } = data.allMarkdownRemark
+        const partners =
+          data.allMarkdownRemark.edges[0].node.frontmatter
         return (
           <section className="brand-two ">
             <div className="container">
@@ -86,36 +68,13 @@ const BrandsTwo = () => {
               </div>
               <div className="brand-one__carousel">
                 <Swiper {...params}>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
-                  <div className="item">
-                    <img src={brand1} alt="" />
-                  </div>
+                  {partners.map((partner, index) => {
+                    return (
+                      <div className="item">
+                        <img src={brand1} alt="" />
+                      </div>
+                    )
+                  })}
                 </Swiper>
               </div>
             </div>
