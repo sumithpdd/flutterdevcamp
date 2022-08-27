@@ -57,7 +57,7 @@ const BrandsTwo = () => {
           }
         }
       `}
-      render={(data) => {v
+      render={(data) => {
         const partners =
           data.allMarkdownRemark.edges[0].node.frontmatter.partners
         return (
