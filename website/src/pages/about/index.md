@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Flutter DevCamp about
+title: About
 mainImage:
   image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,w_400/v1661175580/flutterdevcamp/venue_basement_2_tjevwz.jpg
   imageAlt: Flutter DevCamp presenting at a workshop.
