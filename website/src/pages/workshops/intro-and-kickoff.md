@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Intro and Kickoff
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662222292/flutterdevcamp/mentors/devcamp_banner_jouvpp.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_206,w_206/v1662222292/flutterdevcamp/mentors/devcamp_banner_jouvpp.jpg
 date: 2022-09-03T16:29:55.836Z
 topic: Basics
 duration: 2
@@ -25,9 +25,7 @@ location:
 ---
  
 <ul className="list-unstyled course-details__overview-list">
-  <li>Learn the Flutter Basics layout</li>
-  <li>Understand Model and navigation</li>
-  <li>Learn to build multi page Application</li>
-  <li>learn basics of Github</li>
-  <li>2 Flutter UI assignments</li>
+  <li>Introduce what the program is</li>
+  <li>Provide the weekly plans</li>
+  <li>Links to register for the program</li>
 </ul>
