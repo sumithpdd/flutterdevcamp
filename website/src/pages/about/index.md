@@ -14,15 +14,18 @@ developerGroups: |-
 organizers:
   title: Group Organizers
   gallery:
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_200,w_200/v1661261840/flutterdevcamp/mentors/sumith2020_n30tzo.jpg
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662221439/flutterdevcamp/mentors/Sumith_Damodaran_org_iiselr.webp
       name: Sumith Damodaran
-      imageAlt: Sumith Damodaran
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_200,w_200/v1661261862/flutterdevcamp/mentors/1_wOOc61yYplJC9RbdvI9lGw_bfdngl.jpg
+      imageAlt: GDG London Lead ``technology Veteran
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662221439/flutterdevcamp/mentors/Renuka__Kelkar_org_qkk2ps.webp
       name: Renuka Kelkar
       imageAlt: Renuka Kelkar
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,w_200/v1661261886/flutterdevcamp/mentors/LgFqlJ4U_400x400_xbpmrv.jpg
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662221565/flutterdevcamp/mentors/Simon_Lightfoot_org_kel9p8.webp
       name: Simon Lightfoot
-      imageAlt: Simon Lightfoot
+      imageAlt: Flutter Community Lead CTO, DevAngels London
+    - name: Gen Ashley
+      image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662221439/flutterdevcamp/mentors/Gen_Ashley_org_imlbzd.webp
+      imageAlt: GDG London Lead Founder, TECH(K)NOW
 seo:
   browserTitle: About | Flutter DevCamp
   description: Flutter Devcamp is a series of workshop held monthly where

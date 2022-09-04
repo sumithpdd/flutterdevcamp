@@ -1,29 +1,31 @@
 ---
 templateKey: workshop
-title: Week 2 Firebase Integration
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
-date: 2022-09-24T17:54:14.236Z
-topic: Flutter Firebase
+title: Intro and Kickoff
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_206,w_206/v1662222292/flutterdevcamp/mentors/devcamp_banner_jouvpp.jpg
+date: 2022-09-03T16:29:55.836Z
+topic: Basics
 duration: 2
-numberOfLectures: 4
+numberOfLectures: 5
 maxNumberofStudents: 40
 skillLevel: Basic
 language: English
-formatInperson: false
+formatInperson: true
 formatOnline: true
 showonfooter: true
 presenters:
   - image: /images/author-1-1.jpg
     name: Renuka Kelkar
     presentationTitle: Renuka Kelkar Flutter Devcamp week 1
-    text: about renuka
+    text: about
 location:
   name: Traitors Gate
   mapsLink: https://www.google.com/maps/place/Traitors+Gate/@51.5098435,-0.0788842,19z/data=!4m5!3m4!1s0x4876030dd752a1c5:0x4a35f7c87ee9c96!8m2!3d51.5098435!4d-0.0784241
   mapsLatitude: 51.5098435
   mapsLongitude: 0.0788842
 ---
-* Learn the Flutter and Firebase Integration
-* Understand how to create CRUD operations.
-* Learn best coding practices.
-* Assignment Project using flutter and Firebase.
+ 
+<ul className="list-unstyled course-details__overview-list">
+  <li>Introduce what the program is</li>
+  <li>Provide the weekly plans</li>
+  <li>Links to register for the program</li>
+</ul>
