@@ -55,8 +55,13 @@ const AboutPageTemplate = (props) => {
         <ul className="list-unstyled course-details__overview-list">
           {page.frontmatter.organizers.gallery.map((galleryImage, index) => (
             <li key={index}>
-              <img src={galleryImage.image} alt={galleryImage.imageAlt} />
-              <span>{galleryImage.name}</span>
+              <div className="comment-one__image">
+                <div className="inner-block">
+                  <img src={galleryImage.image} alt={galleryImage.imageAlt} />
+                </div>
+              </div>
+              <img />
+              <h3 className="comment-one__author">{galleryImage.name} </h3>
             </li>
           ))}
         </ul>
