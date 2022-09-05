@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Specialised CI/CD with codemagic
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662382094/codemagic-blog-header-practical-guide_u8wabv.png
-date: 2022-09-05T12:38:42.128Z
+date: 2022-11-19T13:38:42.128Z
 topic: CI/CD codemagic
 duration: 2
 numberOfLectures: 4
