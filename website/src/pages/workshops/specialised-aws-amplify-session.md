@@ -1,15 +1,15 @@
 ---
 templateKey: workshop
-title: Week 5 Flutter Web
+title: Specialised Aws Amplify session
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
-date: 2022-10-15T17:54:14.236Z
-topic: Flutter Web
+date: 2022-11-19T13:34:43.381Z
+topic: Aws Amplify with Flutter
 duration: 2
-numberOfLectures: 3
+numberOfLectures: 1
 maxNumberofStudents: 40
-skillLevel: Basic
+skillLevel: Intermediate
 language: English
-formatInperson: false
+formatInperson: true
 formatOnline: true
 showonfooter: false
 presenters:
@@ -23,6 +23,4 @@ location:
   mapsLatitude: 51.5098435
   mapsLongitude: 0.0788842
 ---
-- Learn about Flutter web
-- How to make flutter app responsive?
-- assignment project on flutter web.
+* **Aws Amplify**
