@@ -52,19 +52,37 @@ const AboutPageTemplate = (props) => {
         <h2 className="organizers-title">
           {page.frontmatter.organizers.title}
         </h2>
-        <ul className="list-unstyled course-details__overview-list">
-          {page.frontmatter.organizers.gallery.map((galleryImage, index) => (
-            <li key={index}>
-              <div className="comment-one__image">
-                <div className="inner-block">
+
+        {page.frontmatter.organizers.gallery.map((galleryImage, index) => (
+          <div className="row" key={index}>
+            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div className="team-one__single">
+                <div className="team-one__image">
                   <img src={galleryImage.image} alt={galleryImage.imageAlt} />
                 </div>
+                <div className="team-one__content">
+                  <h2 className="team-one__name">{galleryImage.name}</h2>
+
+                  <p className="team-one__text"></p>
+                </div>
+                {/* <div className="team-one__social">
+                  <a href="#none">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="#none">
+                    <i className="fab fa-facebook-square"></i>
+                  </a>
+                  <a href="#none">
+                    <i className="fab fa-pinterest-p"></i>
+                  </a>
+                  <a href="#none">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </div> */}
               </div>
-              <img />
-              <h3 className="comment-one__author">{galleryImage.name} </h3>
-            </li>
-          ))}
-        </ul>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   )
