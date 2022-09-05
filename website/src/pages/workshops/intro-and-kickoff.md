@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Intro and Kickoff
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,h_206,w_206/v1662222292/flutterdevcamp/mentors/devcamp_banner_jouvpp.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662222292/flutterdevcamp/mentors/devcamp_banner_jouvpp.jpg
 date: 2022-09-03T16:29:55.836Z
 topic: Basics
 duration: 2
