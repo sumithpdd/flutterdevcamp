@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Week 4 State Management
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
-date: 2022-10-01T17:54:14.236Z
+date: 2022-10-08T09:00:14.236Z
 topic: State Management
 duration: 2
 numberOfLectures: 5
