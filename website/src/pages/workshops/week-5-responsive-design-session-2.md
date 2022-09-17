@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Week 5 Responsive Design Session 2
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
-date: 2022-09-17T17:00:40.981Z
+date: 2022-10-19T17:00:40.981Z
 topic: Flutter Web
 duration: 2
 numberOfLectures: 3
