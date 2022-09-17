@@ -4,7 +4,7 @@ title: Week 3 Firebase Integration session 2
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
 date: 2022-10-05T17:00:58.411Z
 topic: Flutter Firebase
-duration: 2
+duration: 1
 numberOfLectures: 4
 maxNumberofStudents: 40
 skillLevel: Basic
