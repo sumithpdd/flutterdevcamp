@@ -1,8 +1,8 @@
 ---
 templateKey: workshop
-title: Week 3 API integration
+title: Week 2 API integration
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
-date: 2022-10-01T17:54:14.236Z
+date: 2022-09-24T09:00:14.236Z
 topic: API Integration
 duration: 2
 numberOfLectures: 4
