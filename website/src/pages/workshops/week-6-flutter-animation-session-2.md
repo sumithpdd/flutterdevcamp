@@ -2,7 +2,7 @@
 templateKey: workshop
 title: Week 6 Flutter Animation  Session 2
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
-date: 2022-09-17T17:00:00.804Z
+date: 2022-10-26T17:00:00.804Z
 topic: Animation
 duration: 1
 numberOfLectures: 3
