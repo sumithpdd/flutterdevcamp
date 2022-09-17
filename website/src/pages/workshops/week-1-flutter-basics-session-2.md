@@ -4,7 +4,7 @@ title: Week 1 Flutter Basics session 2
 featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
 date: 2022-09-21T17:00:11.610Z
 topic: Basics
-duration: 2
+duration: 1
 numberOfLectures: 5
 maxNumberofStudents: 40
 skillLevel: Basic
