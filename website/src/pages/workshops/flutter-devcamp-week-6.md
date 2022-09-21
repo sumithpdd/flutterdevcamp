@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 6 Flutter Animation
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1663745771/flutterdevcamp/mentors/mentor_banner_Roaa_Khaddam_n7avgo.jpg
 date: 2022-10-22T09:00:14.236Z
 topic: Animation
 duration: 2
