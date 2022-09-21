@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 4 State Management Session 2
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1663745772/flutterdevcamp/mentors/mentor_banner_Majid_hajian_fqrjwr.jpg
 date: 2022-10-12T17:00:26.596Z
 topic: State Management
 duration: -2
