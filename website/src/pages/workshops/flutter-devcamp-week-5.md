@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 5 Responsive Design
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1664182961/flutterdevcamp/mentors/mentor_banner_markandey_uvzjpc.png
 date: 2022-10-15T17:54:14.236Z
 topic: Flutter Web
 duration: 2
