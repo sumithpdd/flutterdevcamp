@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 9 Graduation
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1664187915/flutterdevcamp/mentors/mentor_banner_simon_kk9t4v.png
 date: 2022-11-17T18:54:14.236Z
 topic: Graduation
 duration: 2
