@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Specialised Aws Amplify session
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1664182961/flutterdevcamp/mentors/mentor_banner_salih_cmj3bn.png
 date: 2022-11-19T13:34:43.381Z
 topic: Aws Amplify with Flutter
 duration: 2
