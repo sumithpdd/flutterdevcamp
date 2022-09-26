@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 1 Flutter Basics
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1664187928/flutterdevcamp/mentors/mentor_banner_renuka_ofby6o.png
 date: 2022-09-17T09:00:00.000Z
 topic: Basics
 duration: 2
