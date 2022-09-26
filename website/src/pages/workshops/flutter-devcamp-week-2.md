@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Week 3 Firebase Integration
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1664182962/flutterdevcamp/mentors/mentor_banner_sumith_swtp8o.png
 date: 2022-10-01T09:00:14.236Z
 topic: Flutter Firebase
 duration: 2
