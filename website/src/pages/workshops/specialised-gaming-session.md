@@ -1,7 +1,7 @@
 ---
 templateKey: workshop
 title: Specialised Gaming session
-featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1661175575/flutterdevcamp/venue_basement_1_z98zdq.jpg
+featuredImage: https://res.cloudinary.com/flutterdevcamp/image/upload/v1664182961/flutterdevcamp/mentors/mentor_banner_roman_iqraah.png
 date: 2022-11-12T13:33:09.294Z
 topic: Gaming with Flutter
 duration: 2
