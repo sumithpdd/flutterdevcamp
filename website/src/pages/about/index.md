@@ -14,7 +14,7 @@ developerGroups: |-
 organizers:
   title: Group Organizers
   gallery:
-    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662221439/flutterdevcamp/mentors/Sumith_Damodaran_org_iiselr.webp
+    - image: https://res.cloudinary.com/flutterdevcamp/image/upload/c_scale,w_206/v1664192723/flutterdevcamp/mentors/Sumith-sitecore-plane__pw2rvg.webp
       name: Sumith Damodaran
       imageAlt: GDG London Lead ``technology Veteran
     - image: https://res.cloudinary.com/flutterdevcamp/image/upload/v1662221439/flutterdevcamp/mentors/Renuka__Kelkar_org_qkk2ps.webp
